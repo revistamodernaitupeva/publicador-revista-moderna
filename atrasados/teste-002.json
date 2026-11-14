@@ -1,0 +1,11 @@
+{
+  "horario": "2026-11-14T20:50:00-03:00",
+  "tipo": "feed",
+  "imagens": [
+    "teste-002.jpg"
+  ],
+  "legenda": "Segundo teste do publicador automático. Pode ignorar.",
+  "status": "invalido",
+  "motivo": "teste-002.jpg: arquivo nao encontrado na fila/",
+  "movido_em": "2026-11-14T23:46:35.544418+00:00"
+}
