@@ -1,0 +1,19 @@
+{
+  "horario": "2026-11-14T20:30:00-03:00",
+  "tipo": "feed",
+  "imagens": [
+    "teste-001.jpg"
+  ],
+  "legenda": "Teste do publicador automático da Revista Moderna. Pode ignorar.",
+  "resultado": {
+    "instagram": {
+      "id": "17931947460425523",
+      "link": "https://www.instagram.com/p/DfvXnMKifqL/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780383417425422"
+    }
+  },
+  "status": "publicado",
+  "movido_em": "2026-11-14T23:18:47.066066+00:00"
+}
