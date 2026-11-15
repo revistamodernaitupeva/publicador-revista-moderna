@@ -8,5 +8,15 @@
   "foto_credito": "Tribuna de Jundiaí",
   "licenca_verificada": false,
   "horario": "2026-11-14T23:55:00-03:00",
-  "status": "aprovado"
+  "status": "publicado",
+  "resultado": {
+    "instagram": {
+      "id": "17995344651066485",
+      "link": "https://www.instagram.com/p/DfvwacSjSLg/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780561000740997"
+    }
+  },
+  "movido_em": "2026-11-15T02:55:33.064134+00:00"
 }
