@@ -1,0 +1,19 @@
+{
+  "horario": "2026-11-14T21:30:00-03:00",
+  "tipo": "feed",
+  "imagens": [
+    "teste-002.jpg.jpg"
+  ],
+  "legenda": "Segundo teste do publicador automático. Pode ignorar.",
+  "resultado": {
+    "instagram": {
+      "id": "18015532430760987",
+      "link": "https://www.instagram.com/p/Dfvexsjl9l7/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780431134087317"
+    }
+  },
+  "status": "publicado",
+  "movido_em": "2026-11-15T00:21:26.651112+00:00"
+}
