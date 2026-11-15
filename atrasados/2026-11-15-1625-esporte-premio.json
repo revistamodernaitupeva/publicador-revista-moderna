@@ -8,7 +8,7 @@
   "foto_credito": "Pop TV",
   "licenca_verificada": false,
   "horario": "2026-11-15T16:25:00-03:00",
-  "status": "aprovado",
+  "status": "falhou",
   "site": {
     "titulo": "Jundiaí conquista dois prêmios no Fórum Esportes & Negócios 2026 pela gestão do esporte",
     "texto": "A Secretaria de Esporte e Lazer (SMEL) de Jundiaí conquistou dois prêmios durante o Fórum Esportes & Negócios 2026, realizado na quinta-feira (12), na Assembleia Legislativa do Estado de São Paulo (Alesp). A pasta foi representada pela secretária Rita Orsi.\n\nUm dos reconhecimentos foi o prêmio Conexões CREF4/SP, concedido pelo Conselho Regional de Educação Física da 4ª Região. A honraria destaca ações de valorização e fortalecimento dos profissionais de Educação Física, além da promoção da saúde e da prática esportiva em diferentes modalidades.\n\nSegundo a Prefeitura, são realizados 87.500 atendimentos por semana na área esportiva em Jundiaí, por meio de quatro programas que atendem todas as faixas de idade: Escola de Esporte, Esporte Campeão, Esporte Maior e Peama. Ao todo, são 10 mil alunos cadastrados nas atividades.\n\nPara a secretária, o trabalho passa por criar conexões com entidades e associações do setor, participar de competições, oferecer atividades para todas as idades, buscar leis de incentivo ao esporte e realizar a jornada de inteligência esportiva com alunos e atletas. Ela atribui os resultados à sinergia entre os cerca de 200 servidores envolvidos diretamente com o esporte no município e à parceria com outras secretarias.",
@@ -22,5 +22,7 @@
       "status": "publish"
     }
   },
-  "tentativas": 2
+  "tentativas": 3,
+  "motivo": "falhou apos varias tentativas",
+  "movido_em": "2026-11-15T19:35:15.878813+00:00"
 }
