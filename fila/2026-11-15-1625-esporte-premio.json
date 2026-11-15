@@ -15,6 +15,12 @@
     "imagem": "2026-11-15-1625-esporte-premio-site.jpg",
     "status": "publish"
   },
-  "resultado": {},
-  "tentativas": 1
+  "resultado": {
+    "site": {
+      "id": 11341,
+      "link": "https://arevistamoderna.com.br/jundiai-conquista-dois-premios-no-forum-esportes-negocios-2026-pela-gestao-do-esporte/",
+      "status": "publish"
+    }
+  },
+  "tentativas": 2
 }
