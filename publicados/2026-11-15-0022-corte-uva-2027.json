@@ -8,5 +8,15 @@
   "foto_credito": "Prefeitura de Jundiaí",
   "licenca_verificada": false,
   "horario": "2026-11-15T00:22:00-03:00",
-  "status": "aprovado"
+  "status": "publicado",
+  "resultado": {
+    "instagram": {
+      "id": "18133262104751977",
+      "link": "https://www.instagram.com/p/DfvzR_Bl4Hs/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780587927404971"
+    }
+  },
+  "movido_em": "2026-11-15T03:20:36.381087+00:00"
 }
