@@ -8,6 +8,16 @@
   "foto_credito": "Juan Rodrigues / Novorizontino",
   "licenca_verificada": false,
   "horario": "2026-11-14T23:50:00-03:00",
-  "status": "aprovado",
-  "aprovado_em": "2026-11-14T23:35:00-03:00"
+  "status": "publicado",
+  "aprovado_em": "2026-11-14T23:35:00-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18159636793517908",
+      "link": "https://www.instagram.com/p/DfvutgaE2re/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780549184075512"
+    }
+  },
+  "movido_em": "2026-11-15T02:40:38.975788+00:00"
 }
