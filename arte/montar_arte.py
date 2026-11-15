@@ -2,7 +2,7 @@
 """Monta a arte da Revista Moderna (layout 1068x1337) e salva em JPEG.
 
 Uso:
-  python3 -I montar_arte.py FOTO SAIDA.jpg "Titulo da materia" [crop=x0,y0,x1,y1] [rosto=0.5] [tamanho=64] [alinhar=centro]
+  python3 -I montar_arte.py FOTO SAIDA.jpg "Titulo da materia" [crop=x0,y0,x1,y1] [rosto=0.5] [tamanho=54] [alinhar=centro]
 
 - FOTO: imagem de entrada (jpg/png).
 - Use "|" no titulo para escolher onde quebrar as linhas.
@@ -23,8 +23,9 @@ LARGURA, ALTURA = 1068, 1337
 FOTO_H = 852                      # a foto ocupa y 0..852
 MEDALHAO = (529.2, 846.8, 69.0)   # centro x, centro y, raio
 MARGEM = 50
+MARGEM_DIREITA = 40
 TITULO_Y0, TITULO_Y1 = 930, 1146  # area do titulo na faixa azul
-TAMANHO_MAX = 64
+TAMANHO_MAX = 54
 MAX_LINHAS = 3
 
 
@@ -63,13 +64,13 @@ def quebrar(texto, fonte, largura_max):
 
 
 def ajustar_titulo(titulo, tamanho_max):
-    largura_max = LARGURA - 2 * MARGEM
+    largura_max = LARGURA - MARGEM - MARGEM_DIREITA
     altura_max = TITULO_Y1 - TITULO_Y0
     manual = [l.strip() for l in titulo.split("|")] if "|" in titulo else None
     for tam in range(tamanho_max, 27, -1):
         fonte = ImageFont.truetype(FONTE, tam)
         linhas = manual or quebrar(titulo, fonte, largura_max)
-        entrelinha = int(tam * 1.12)
+        entrelinha = int(tam * 1.3)
         cabe_largura = all(fonte.getlength(l) <= largura_max for l in linhas)
         if len(linhas) <= MAX_LINHAS and cabe_largura and entrelinha * len(linhas) <= altura_max:
             return fonte, linhas, entrelinha
