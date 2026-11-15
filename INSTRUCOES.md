@@ -34,3 +34,9 @@ Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade 
 - Reescrever textos com palavras próprias; creditar foto e fonte; evitar temas sensíveis.
 - Não repetir matéria já publicada (ver `publicados/`).
 - Aprovação do dono antes de cada post entrar na fila.
+
+## Site (arevistamoderna.com.br – WordPress)
+- Todo post aprovado também é publicado direto no site (`site_para_todos: true` em `config.json`), usando a imagem como destaque, com os créditos no fim.
+- Para controlar título e texto da matéria, inclua no JSON: `"titulo": "..."` e/ou `"site": {"titulo": "...", "texto": "parágrafos separados por linha em branco", "status": "publish"}`. Sem `site`, o robô monta a matéria a partir da legenda (sem hashtags e sem a linha de créditos).
+- Para não ir ao site: `"plataformas": ["instagram", "facebook"]`. Para só o site: `["site"]`. `"status": "draft"` cria rascunho em vez de publicar.
+- Segredos: `WP_USUARIO` e `WP_SENHA` (senha de aplicativo do WordPress), nos GitHub Secrets.

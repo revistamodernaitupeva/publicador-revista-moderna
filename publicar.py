@@ -179,6 +179,27 @@ def publicar_site(post):
     return {"id": r.get("id"), "link": r.get("link"), "status": r.get("status")}
 
 
+def derivar_site(post):
+    """Monta o bloco 'site' a partir da legenda, se o post nao trouxer um."""
+    import re
+    blocos = [b.strip() for b in post["legenda"].replace("\r", "").split("\n\n")]
+    texto = []
+    for b in blocos:
+        if not b:
+            continue
+        if re.fullmatch(r"(#\w+\s*)+", b):
+            continue
+        if b.startswith("Foto:") or "texto de Revista Moderna" in b:
+            continue
+        texto.append(b)
+    corpo = "\n\n".join(texto)
+    titulo = post.get("titulo")
+    if not titulo:
+        primeira = re.split(r"(?<=[.!?])\s", texto[0], maxsplit=1)[0] if texto else "Revista Moderna"
+        titulo = re.sub("[\U0001F300-\U0001FAFF\u2600-\u27BF\u2B50\uFE0F]", "", primeira).strip()[:110]
+    return {"titulo": titulo, "texto": corpo, "status": "publish"}
+
+
 def validar(post):
     for campo in ("horario", "tipo", "imagens", "legenda"):
         if campo not in post:
@@ -264,6 +285,10 @@ def main():
                 mover(jf, post, "atrasados", "atrasado",
                       "passou do limite de atraso")
             continue
+
+        if ("site" not in post and "plataformas" not in post
+                and CFG.get("site_para_todos", False) and SITE_URL):
+            post["site"] = derivar_site(post)
 
         erro = validar(post)
         if erro:
