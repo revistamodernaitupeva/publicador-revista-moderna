@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Publicador automatico: le a fila/ e publica no Instagram e Facebook."""
+import base64
+import html
 import json
 import os
 import shutil
@@ -22,6 +24,9 @@ MAX_TENTATIVAS = 3
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 TOKEN = os.environ.get("META_TOKEN", "")
 SIMULACAO = os.environ.get("SIMULACAO", "false").lower() == "true"
+SITE_URL = CFG.get("site_url", "").rstrip("/")
+WP_USUARIO = os.environ.get("WP_USUARIO", "")
+WP_SENHA = os.environ.get("WP_SENHA", "")
 
 
 class MetaError(Exception):
@@ -115,6 +120,65 @@ def publicar_facebook(post):
     return {"id": r.get("id")}
 
 
+def _wp_auth():
+    cred = f"{WP_USUARIO}:{WP_SENHA}".encode()
+    return "Basic " + base64.b64encode(cred).decode()
+
+
+def wp(metodo, caminho, corpo=None, cabecalhos=None):
+    """Chama a API REST do WordPress (senha de aplicativo no cabecalho)."""
+    if not (SITE_URL and WP_USUARIO and WP_SENHA):
+        raise MetaError("site: falta site_url no config.json ou os Secrets "
+                        "WP_USUARIO/WP_SENHA")
+    h = {"Authorization": _wp_auth(), "User-Agent": "publicador-revista-moderna/1.0",
+         "Accept": "application/json"}
+    h.update(cabecalhos or {})
+    req = urllib.request.Request(f"{SITE_URL}/wp-json/wp/v2/{caminho}",
+                                 data=corpo, method=metodo, headers=h)
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        raise MetaError(f"site HTTP {e.code}: "
+                        f"{e.read().decode('utf-8', 'replace')[:500]}")
+    except urllib.error.URLError as e:
+        raise MetaError(f"site: falha de rede: {e}")
+
+
+def texto_para_html(texto):
+    blocos = [b.strip() for b in texto.replace("\r", "").split("\n\n") if b.strip()]
+    return "\n".join(f"<p>{html.escape(b).replace(chr(10), '<br>')}</p>"
+                      for b in blocos)
+
+
+def publicar_site(post):
+    cfg = post["site"]
+    # imagem destacada
+    nome = post["imagens"][0]
+    dados = (RAIZ / "fila" / nome).read_bytes()
+    midia = wp("POST", "media", dados, {
+        "Content-Type": "image/jpeg",
+        "Content-Disposition": f'attachment; filename="{nome}"'})
+    conteudo = texto_para_html(cfg["texto"])
+    creditos = []
+    if post.get("foto_credito"):
+        creditos.append(f"Foto: {post['foto_credito']}")
+    if post.get("fonte"):
+        creditos.append(f"Fonte: {post['fonte']}")
+    if creditos:
+        conteudo += f"\n<p><em>{html.escape(' | '.join(creditos))}</em></p>"
+    corpo = {"title": cfg["titulo"], "content": conteudo,
+             "status": cfg.get("status", "publish"),
+             "featured_media": midia["id"]}
+    if cfg.get("resumo"):
+        corpo["excerpt"] = cfg["resumo"]
+    if cfg.get("categorias"):
+        corpo["categories"] = cfg["categorias"]
+    r = wp("POST", "posts", json.dumps(corpo).encode(),
+           {"Content-Type": "application/json"})
+    return {"id": r.get("id"), "link": r.get("link"), "status": r.get("status")}
+
+
 def validar(post):
     for campo in ("horario", "tipo", "imagens", "legenda"):
         if campo not in post:
@@ -130,6 +194,10 @@ def validar(post):
         return "tipo 'carrossel' precisa de 2 a 10 imagens"
     if len(post["legenda"]) > 2200:
         return "legenda passa de 2200 caracteres"
+    if "site" in post:
+        for campo in ("titulo", "texto"):
+            if not post["site"].get(campo):
+                return f"site: falta '{campo}'"
     for n in imgs:
         p = RAIZ / "fila" / n
         if not n.lower().endswith((".jpg", ".jpeg")):
@@ -205,11 +273,13 @@ def main():
                 mover(jf, post, "atrasados", "invalido", erro)
             continue
 
-        plataformas = post.get("plataformas", ["instagram", "facebook"])
+        padrao = ["instagram", "facebook"] + (["site"] if "site" in post else [])
+        plataformas = post.get("plataformas", padrao)
         resultado = post.setdefault("resultado", {})
         falhou = False
         for nome, funcao in (("instagram", publicar_instagram),
-                             ("facebook", publicar_facebook)):
+                             ("facebook", publicar_facebook),
+                             ("site", publicar_site)):
             if nome not in plataformas or nome in resultado:
                 continue
             if SIMULACAO:

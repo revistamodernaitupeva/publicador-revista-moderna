@@ -1,0 +1,19 @@
+{
+  "tipo": "feed",
+  "imagens": [
+    "teste-site.jpg"
+  ],
+  "legenda": "teste",
+  "plataformas": [
+    "site"
+  ],
+  "site": {
+    "titulo": "Teste do robô (rascunho)",
+    "texto": "Primeiro parágrafo de teste.\n\nSegundo parágrafo de teste.",
+    "status": "draft"
+  },
+  "fonte": "Agência Brasil",
+  "foto_credito": "Juan Rodrigues / Novorizontino",
+  "horario": "2026-11-15T00:30:00-03:00",
+  "status": "aprovado"
+}
