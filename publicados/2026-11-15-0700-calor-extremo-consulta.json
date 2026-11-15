@@ -15,7 +15,22 @@
   "foto_credito": "Fernando Frazão / Agência Brasil",
   "licenca_verificada": false,
   "criado_em": "2026-11-15T00:50:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-15T00:40:00-03:00",
-  "aprovado_em": "2026-11-15T00:39:00-03:00"
+  "aprovado_em": "2026-11-15T00:39:00-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18117517595032044",
+      "link": "https://www.instagram.com/p/Dfv1kt7m0Pa/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780605854069845"
+    },
+    "site": {
+      "id": 11317,
+      "link": "https://arevistamoderna.com.br/governo-abre-consulta-publica-sobre-o-enfrentamento-ao-calor-extremo/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-15T03:40:44.646524+00:00"
 }
