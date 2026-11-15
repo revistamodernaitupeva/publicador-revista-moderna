@@ -8,5 +8,18 @@
   "foto_credito": "Prefeitura de Jundiaí",
   "licenca_verificada": false,
   "horario": "2026-11-15T11:00:00-03:00",
-  "status": "aprovado"
+  "status": "aprovado",
+  "site": {
+    "titulo": "Siga: @arevistamoderna",
+    "texto": "Siga: @arevistamoderna\n\nCentro de Jundiaí recebe limpeza e conservação, e 50 ruas terão iluminação em LED\n\nA Prefeitura de Jundiaí intensificou os serviços de zeladoria, conservação, modernização da iluminação pública e reordenamento da fiação aérea no Centro. Entre as ações já iniciadas estão a lavagem do calçadão da Praça Governador Pedro de Toledo, no entorno da Igreja Matriz, e o envernizamento do palco da praça. Também está prevista a troca de 539 lâmpadas a vapor por luminárias de LED em 50 ruas, com mais eficiência energética. A Rua Anchieta já recebeu a modernização, que chegará a outras vias do Centro.\n\nFonte: Prefeitura de Jundiaí | Texto de Revista Moderna",
+    "status": "publish"
+  },
+  "resultado": {
+    "site": {
+      "id": 11337,
+      "link": "https://arevistamoderna.com.br/siga-arevistamoderna-4/",
+      "status": "publish"
+    }
+  },
+  "tentativas": 1
 }
