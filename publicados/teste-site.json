@@ -15,5 +15,13 @@
   "fonte": "Agência Brasil",
   "foto_credito": "Juan Rodrigues / Novorizontino",
   "horario": "2026-11-15T00:30:00-03:00",
-  "status": "aprovado"
+  "status": "publicado",
+  "resultado": {
+    "site": {
+      "id": 11315,
+      "link": "https://arevistamoderna.com.br/?p=11315",
+      "status": "draft"
+    }
+  },
+  "movido_em": "2026-11-15T03:30:51.826283+00:00"
 }
