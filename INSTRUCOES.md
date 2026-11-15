@@ -40,3 +40,4 @@ Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade 
 - Para controlar título e texto da matéria, inclua no JSON: `"titulo": "..."` e/ou `"site": {"titulo": "...", "texto": "parágrafos separados por linha em branco", "status": "publish"}`. Sem `site`, o robô monta a matéria a partir da legenda (sem hashtags e sem a linha de créditos).
 - Para não ir ao site: `"plataformas": ["instagram", "facebook"]`. Para só o site: `["site"]`. `"status": "draft"` cria rascunho em vez de publicar.
 - Segredos: `WP_USUARIO` e `WP_SENHA` (senha de aplicativo do WordPress), nos GitHub Secrets.
+- **Imagem do site: só a foto, sem layout, 1200x800.** Gere com `python3 -I arte/foto_site.py FOTO NOME-site.jpg [crop=x0,y0,x1,y1] [rosto=0.5]` e aponte no JSON em `"site": {"imagem": "NOME-site.jpg", ...}` (o arquivo vai junto na `fila/`). Sem `site.imagem`, o robô usa a arte do Instagram.

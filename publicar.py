@@ -154,7 +154,7 @@ def texto_para_html(texto):
 def publicar_site(post):
     cfg = post["site"]
     # imagem destacada
-    nome = post["imagens"][0]
+    nome = cfg.get("imagem") or post["imagens"][0]
     dados = (RAIZ / "fila" / nome).read_bytes()
     midia = wp("POST", "media", dados, {
         "Content-Type": "image/jpeg",
@@ -219,6 +219,9 @@ def validar(post):
         for campo in ("titulo", "texto"):
             if not post["site"].get(campo):
                 return f"site: falta '{campo}'"
+        ni = post["site"].get("imagem")
+        if ni and not (RAIZ / "fila" / ni).exists():
+            return f"{ni}: imagem do site nao encontrada na fila/"
     for n in imgs:
         p = RAIZ / "fila" / n
         if not n.lower().endswith((".jpg", ".jpeg")):
@@ -238,7 +241,8 @@ def salvar(caminho, post):
 def mover(arquivo_json, post, destino, status, motivo=None):
     pasta = RAIZ / destino
     pasta.mkdir(exist_ok=True)
-    for n in post.get("imagens", []):
+    extras = [post["site"]["imagem"]] if post.get("site", {}).get("imagem") else []
+    for n in post.get("imagens", []) + extras:
         origem = RAIZ / "fila" / n
         if origem.exists():
             shutil.move(str(origem), str(pasta / n))
