@@ -9,6 +9,15 @@
   "licenca_verificada": false,
   "criado_em": "2026-11-14T21:50:00-03:00",
   "horario": "2026-11-14T23:25:00-03:00",
-  "movido_em": "2026-11-15T01:38:10.121395+00:00",
-  "status": "aprovado"
+  "movido_em": "2026-11-15T02:15:31.026770+00:00",
+  "status": "publicado",
+  "resultado": {
+    "instagram": {
+      "id": "18122710313279368",
+      "link": "https://www.instagram.com/p/Dfvr1xtCUNR/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1780527834077647"
+    }
+  }
 }
