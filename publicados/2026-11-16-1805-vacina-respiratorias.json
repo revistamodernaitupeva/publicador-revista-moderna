@@ -8,11 +8,26 @@
   "foto_credito": "Prefeitura de Jundiaí",
   "licenca_verificada": false,
   "horario": "2026-11-16T18:05:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Vacinação em dia reduz riscos de doenças respiratórias; Jundiaí registra 41 notificações de Covid-19",
     "texto": "Manter a vacinação atualizada é a principal estratégia para evitar as formas graves de doenças respiratórias em Jundiaí, principalmente entre os grupos prioritários definidos pelo Ministério da Saúde.\n\nQuem tem sintomas como tosse, coriza, febre e dor de garganta deve usar máscara, higienizar as mãos com frequência e cobrir boca e nariz ao tossir ou espirrar.\n\nAté domingo (15), o município registrou 41 notificações de Covid-19. Nove foram em pessoas com 60 anos ou mais, com duas internações, e quatro em crianças de até 10 anos, com uma internação. Também houve o óbito de um paciente de 98 anos com comorbidades; os registros disponíveis não traziam informação sobre vacinação contra a Covid-19.\n\nA Prefeitura orienta procurar o serviço de saúde diante de sintomas persistentes ou sinais de agravamento do quadro respiratório.",
     "imagem": "2026-11-16-1805-vacina-respiratorias-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18118521302030216",
+      "link": "https://www.instagram.com/p/Df0R9KaDdCX/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1783222397141524"
+    },
+    "site": {
+      "id": 11387,
+      "link": "https://arevistamoderna.com.br/vacinacao-em-dia-reduz-riscos-de-doencas-respiratorias-jundiai-registra-41-notificacoes-de-covid-19/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-16T21:05:42.034718+00:00"
 }
