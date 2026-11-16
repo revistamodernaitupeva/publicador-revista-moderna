@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-16T20:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Encontro de Fuscas e carros antigos reúne clássicos com mais de 30 anos no Maxi Shopping Jundiaí nesta quarta",
     "texto": "Jundiaí recebe nesta quarta-feira (18), das 19h às 22h, um encontro de Fuscas e outros carros clássicos no Maxi Shopping. A visitação é gratuita e aberta ao público, no Estacionamento Descoberto, com acesso pela Entrada do Sol.\n\nO evento é promovido pelo Fusca Clube Jundiaí e reúne automóveis e utilitários nacionais e importados de diferentes décadas, com mais de 30 anos de fabricação, que marcaram gerações.\n\nQuem deseja expor o carro deve levar um modelo fora de série e em bom estado de conservação. A organização pede a doação de 2 kg de alimentos não perecíveis.\n\nPara os expositores, o estacionamento é gratuito, com entrada exclusiva pela Rua Tiradentes até as 21h30.",
     "imagem": "2026-11-16-2000-fuscas-maxi-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18127498708693764",
+      "link": "https://www.instagram.com/p/Df0d-peF5XV/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1783320807131683"
+    },
+    "site": {
+      "id": 11389,
+      "link": "https://arevistamoderna.com.br/encontro-de-fuscas-e-carros-antigos-reune-classicos-com-mais-de-30-anos-no-maxi-shopping-jundiai-nesta-quarta/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-16T22:50:44.507340+00:00"
 }
