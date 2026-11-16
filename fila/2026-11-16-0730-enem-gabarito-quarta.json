@@ -17,5 +17,13 @@
   "criado_em": "2026-11-16T07:25:00-03:00",
   "status": "aprovado",
   "horario": "2026-11-16T07:15:00-03:00",
-  "aprovado_em": "2026-11-16T07:12:00-03:00"
+  "aprovado_em": "2026-11-16T07:12:00-03:00",
+  "resultado": {
+    "site": {
+      "id": 11347,
+      "link": "https://arevistamoderna.com.br/gabarito-do-enem-2026-sai-na-quarta-feira-18-e-resultado-em-18-de-janeiro/",
+      "status": "publish"
+    }
+  },
+  "tentativas": 1
 }
