@@ -8,9 +8,19 @@
   "foto_credito": "Pop TV",
   "licenca_verificada": false,
   "horario": "2026-11-16T10:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "plataformas": [
     "instagram",
     "facebook"
-  ]
+  ],
+  "resultado": {
+    "instagram": {
+      "id": "17940410319182264",
+      "link": "https://www.instagram.com/p/DfzZUIYAD4M/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1782643657199398"
+    }
+  },
+  "movido_em": "2026-11-16T12:50:36.538207+00:00"
 }
