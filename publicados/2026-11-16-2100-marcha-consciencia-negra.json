@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-16T21:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Marcha da Consciência Negra sai da Praça do Fórum às 9h na sexta-feira (20), feriado nacional, em Jundiaí",
     "texto": "Jundiaí realiza nesta sexta-feira (20), feriado nacional da Consciência Negra, a tradicional Marcha da Consciência Negra, um ato de valorização da história, da cultura e da ancestralidade afro-brasileira.\n\nA mobilização busca destacar o combate à discriminação racial e lembrar que a luta antirracista deve ser um compromisso coletivo durante todo o ano.\n\nA concentração será às 9h, na Praça do Fórum, no Centro de Jundiaí. Os participantes seguirão pela Rua Barão de Jundiaí até a praça do Gabinete de Leitura Ruy Barbosa, onde haverá manifestações culturais e pronunciamentos.",
     "imagem": "2026-11-16-2100-marcha-consciencia-negra-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17965906989235649",
+      "link": "https://www.instagram.com/p/Df0k2FBoM2x/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1783381490458948"
+    },
+    "site": {
+      "id": 11391,
+      "link": "https://arevistamoderna.com.br/marcha-da-consciencia-negra-sai-da-praca-do-forum-as-9h-na-sexta-feira-20-feriado-nacional-em-jundiai/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-16T23:50:54.064734+00:00"
 }
