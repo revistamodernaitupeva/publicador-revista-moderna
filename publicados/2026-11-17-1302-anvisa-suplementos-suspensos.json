@@ -15,7 +15,22 @@
   "foto_credito": "Reuters/Yves Herman (foto de arquivo)",
   "licenca_verificada": false,
   "criado_em": "2026-11-17T16:57:47.350989+00:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-17T21:00:00-03:00",
-  "aprovado_em": "2026-11-17T16:16:00-03:00"
+  "aprovado_em": "2026-11-17T16:16:00-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "17918617962521083",
+      "link": "https://www.instagram.com/p/Df3Jo96jKLt/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1784849853645445"
+    },
+    "site": {
+      "id": 11439,
+      "link": "https://arevistamoderna.com.br/anvisa-suspende-fabricacao-e-venda-de-suplementos-de-tres-empresas/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-17T23:50:37.654980+00:00"
 }
