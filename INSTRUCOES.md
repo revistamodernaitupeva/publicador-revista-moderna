@@ -42,3 +42,9 @@ Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade 
 - Segredos: `WP_USUARIO` e `WP_SENHA` (senha de aplicativo do WordPress), nos GitHub Secrets.
 - **Imagem do site: só a foto, sem layout, 1200x800.** Gere com `python3 -I arte/foto_site.py FOTO NOME-site.jpg [crop=x0,y0,x1,y1] [rosto=0.5]` e aponte no JSON em `"site": {"imagem": "NOME-site.jpg", ...}` (o arquivo vai junto na `fila/`). Sem `site.imagem`, o robô usa a arte do Instagram.
 - **Título da arte:** use um título LONGO e informativo (cerca de 80 a 110 caracteres), SEM "|", e deixe a quebra automática: o script usa fonte 54, margem esquerda 50 e direita 40, até 3 linhas largas, como no modelo do dono.
+
+## Outras contas (ex.: Alto Uruguai)
+- O padrão continua sendo Itupeva (`instagram_id`/`pagina_id` do topo do `config.json`).
+- Para publicar em outra conta, ponha no JSON do post `"conta": "altouruguai"`. Os IDs ficam em `config.json` → `contas`.
+- Uma conta extra publica só nas `plataformas` definidas para ela (Alto Uruguai: só Instagram; nunca vai para o site de Itupeva).
+- A chave `META_TOKEN` (usuário do sistema "Publicador") precisa ter acesso ao Instagram/Página dessa conta no Gerenciador de Negócios da Meta. Confira rodando o workflow "Teste de conexao Meta".

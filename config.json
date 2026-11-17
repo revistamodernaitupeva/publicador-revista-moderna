@@ -5,5 +5,15 @@
   "antecedencia_minutos": 10,
   "atraso_maximo_horas": 3,
   "site_url": "https://arevistamoderna.com.br",
-  "site_para_todos": true
+  "site_para_todos": true,
+  "contas": {
+    "altouruguai": {
+      "nome": "Revista Moderna Alto Uruguai (@revistamoderna.altouruguai)",
+      "instagram_id": "",
+      "pagina_id": "",
+      "plataformas": [
+        "instagram"
+      ]
+    }
+  }
 }

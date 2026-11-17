@@ -16,8 +16,9 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent
 CFG = json.loads((RAIZ / "config.json").read_text(encoding="utf-8"))
 V = CFG.get("versao_api", "v26.0")
-IG = CFG["instagram_id"]
-PAGINA = CFG["pagina_id"]
+IG_PADRAO = CFG["instagram_id"]
+PAGINA_PADRAO = CFG["pagina_id"]
+CONTAS = CFG.get("contas", {})
 ANTECEDENCIA = timedelta(minutes=CFG.get("antecedencia_minutos", 20))
 ATRASO_MAX = timedelta(hours=CFG.get("atraso_maximo_horas", 3))
 MAX_TENTATIVAS = 3
@@ -71,7 +72,22 @@ def esperar_pronto(container_id, tentativas=24):
     raise MetaError(f"container {container_id} nao ficou pronto a tempo")
 
 
+def conta_do_post(post):
+    """Retorna (instagram_id, pagina_id) da conta do post.
+
+    Sem o campo 'conta', usa a conta padrao (Itupeva) do config.json.
+    """
+    nome = post.get("conta")
+    if not nome:
+        return IG_PADRAO, PAGINA_PADRAO
+    c = CONTAS.get(nome)
+    if not c or not c.get("instagram_id"):
+        raise MetaError(f"conta '{nome}' sem instagram_id no config.json")
+    return c["instagram_id"], c.get("pagina_id")
+
+
 def publicar_instagram(post):
+    IG, _ = conta_do_post(post)
     imgs, legenda = post["imagens"], post["legenda"]
     if len(imgs) == 1:
         c = api("POST", f"{IG}/media", TOKEN,
@@ -96,7 +112,7 @@ def publicar_instagram(post):
     return {"id": media_id, "link": link}
 
 
-def token_pagina():
+def token_pagina(PAGINA):
     try:
         return api("GET", PAGINA, TOKEN, fields="access_token")["access_token"]
     except (MetaError, KeyError):
@@ -104,7 +120,10 @@ def token_pagina():
 
 
 def publicar_facebook(post):
-    tp = token_pagina()
+    _, PAGINA = conta_do_post(post)
+    if not PAGINA:
+        raise MetaError("esta conta nao tem pagina_id no config.json")
+    tp = token_pagina(PAGINA)
     imgs, legenda = post["imagens"], post["legenda"]
     if len(imgs) == 1:
         r = api("POST", f"{PAGINA}/photos", tp, url=url_imagem(imgs[0]),
@@ -213,6 +232,8 @@ def validar(post):
         return "tipo 'feed' precisa de exatamente 1 imagem"
     if post["tipo"] == "carrossel" and not (2 <= len(imgs) <= 10):
         return "tipo 'carrossel' precisa de 2 a 10 imagens"
+    if post.get("conta") and post["conta"] not in CONTAS:
+        return f"conta '{post['conta']}' nao existe em config.json (contas)"
     if len(post["legenda"]) > 2200:
         return "legenda passa de 2200 caracteres"
     if "site" in post:
@@ -290,6 +311,10 @@ def main():
                       "passou do limite de atraso")
             continue
 
+        conta_cfg = CONTAS.get(post.get("conta") or "", {})
+        if post.get("conta") and "plataformas" not in post:
+            post["plataformas"] = conta_cfg.get(
+                "plataformas", ["instagram"] + (["facebook"] if conta_cfg.get("pagina_id") else []))
         if ("site" not in post and "plataformas" not in post
                 and CFG.get("site_para_todos", False) and SITE_URL):
             post["site"] = derivar_site(post)
