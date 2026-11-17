@@ -35,6 +35,11 @@ jobs:
               print("QUEM SOU EU:", json.dumps(get("me", fields="id,name"), ensure_ascii=False))
               print("PAGINAS:", json.dumps(get("me/accounts", fields="id,name,instagram_business_account"), ensure_ascii=False, indent=2))
               print("NEGOCIOS/IG:", json.dumps(get("me/businesses", fields="id,name,owned_instagram_accounts{id,username},instagram_accounts{id,username}"), ensure_ascii=False, indent=2))
+              print("PERMISSOES:", json.dumps(get("me/permissions"), ensure_ascii=False))
+              ap = get("me/assigned_pages", fields="id,name,instagram_business_account{id,username},connected_instagram_account{id,username}")
+              print("PAGINAS ATRIBUIDAS:", json.dumps(ap, ensure_ascii=False, indent=2))
+              print("IG ATRIBUIDOS:", json.dumps(get("me/assigned_instagram_accounts", fields="id,username"), ensure_ascii=False, indent=2))
+              print("IG CONTAS:", json.dumps(get("me/instagram_accounts", fields="id,username"), ensure_ascii=False, indent=2))
           else:
               print("Secret META_TOKEN_ALTOURUGUAI ainda nao configurado.")
           PY
