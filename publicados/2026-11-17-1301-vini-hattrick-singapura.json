@@ -15,7 +15,22 @@
   "foto_credito": "Dietmar Rabich / Wikimedia Commons / CC BY-SA 4.0 (Estádio Nacional de Singapura, recortada)",
   "licenca_verificada": true,
   "criado_em": "2026-11-17T16:57:47.350989+00:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-17T19:30:00-03:00",
-  "aprovado_em": "2026-11-17T16:20:00-03:00"
+  "aprovado_em": "2026-11-17T16:20:00-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18256058965308357",
+      "link": "https://www.instagram.com/p/Df2_YzjCbOA/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1784796966984067"
+    },
+    "site": {
+      "id": 11437,
+      "link": "https://arevistamoderna.com.br/vini-jr-faz-hat-trick-e-brasil-goleia-singapura-por-7-a-0-no-ultimo-jogo-de-2026/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-17T22:21:09.332689+00:00"
 }
