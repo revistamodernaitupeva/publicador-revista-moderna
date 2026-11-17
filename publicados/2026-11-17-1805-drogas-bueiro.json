@@ -8,11 +8,26 @@
   "foto_credito": "Diogo Moreira / Governo de SP (Wikimedia Commons, CC BY 2.0)",
   "licenca_verificada": true,
   "horario": "2026-11-17T18:05:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "PM encontra cerca de 10 quilos de drogas escondidos em bueiro no Jardim Tamoio, em Jundiaí; homem é preso",
     "texto": "Policiais militares do 49º Batalhão de Jundiaí encontraram cerca de 10 quilos de drogas escondidos em um bueiro no bairro do Jardim Tamoio, em Jundiaí.\n\nUm homem foi preso. Segundo a polícia, ele era o responsável por abastecer pontos de venda de drogas da região.\n\nTrabalharam na ocorrência policiais da Equipe Charlie, do 49º Batalhão.\n\nO preso foi conduzido para a Cadeia de Campo Limpo Paulista.\n\nImagem ilustrativa: Diogo Moreira / Governo de SP (Wikimedia Commons, CC BY 2.0).",
     "imagem": "2026-11-17-1805-drogas-bueiro-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18069636692528017",
+      "link": "https://www.instagram.com/p/Df22v1hDfoM/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1784749416988822"
+    },
+    "site": {
+      "id": 11432,
+      "link": "https://arevistamoderna.com.br/pm-encontra-cerca-de-10-quilos-de-drogas-escondidos-em-bueiro-no-jardim-tamoio-em-jundiai-homem-e-preso/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-17T21:05:38.162085+00:00"
 }
