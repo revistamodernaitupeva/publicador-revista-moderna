@@ -8,11 +8,26 @@
   "foto_credito": "Prefeitura de Olinda (Wikimedia Commons, CC BY 2.0)",
   "licenca_verificada": true,
   "horario": "2026-11-17T18:55:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Vacina contra a Covid-19 segue disponível o ano todo nas UBSs de Jundiaí; veja quem deve se vacinar",
     "texto": "A vacina contra a Covid-19 segue disponível o ano todo em todas as UBSs e Clínicas da Família de Jundiaí. A imunização segue as diretrizes do Ministério da Saúde e é fundamental para proteger quem tem maior risco de desenvolver formas graves da doença.\n\nCrianças de 6 meses a menores de 5 anos devem tomar o esquema de 3 doses. Para crianças de 5 a 11 anos, a vacina é exclusiva para grupos prioritários, mediante solicitação ao CRIE. Idosos (60+) e imunocomprometidos devem tomar 1 dose a cada 6 meses, e gestantes, 1 dose a cada gestação, em qualquer trimestre.\n\nOutros grupos prioritários, como pessoas com comorbidades, trabalhadores da saúde e puérperas não vacinadas na gestação, tomam 1 dose anual. Na população geral (5 a 59 anos), quem nunca tomou nenhuma dose deve receber 1 para iniciar a proteção; quem já foi vacinado e não faz parte dos grupos prioritários não precisa de reforço periódico no momento.\n\nBasta procurar a UBS ou Clínica da Família mais próxima de casa, sem necessidade de agendamento (algumas unidades têm horário estendido). É preciso levar documento com foto, CPF ou Cartão SUS, caderneta de vacinação e comprovante da condição clínica ou profissional, quando necessário.\n\nA vacina pode ser aplicada no mesmo dia de outros imunizantes, como o da gripe. Quem teve Covid-19 recentemente deve aguardar 28 dias para se vacinar.\n\nImagem ilustrativa: Prefeitura de Olinda (Wikimedia Commons, CC BY 2.0).",
     "imagem": "2026-11-17-1855-vacina-covid-ubs-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18047339504836222",
+      "link": "https://www.instagram.com/p/Df276LRDMJF/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1784777966985967"
+    },
+    "site": {
+      "id": 11434,
+      "link": "https://arevistamoderna.com.br/vacina-contra-a-covid-19-segue-disponivel-o-ano-todo-nas-ubss-de-jundiai-veja-quem-deve-se-vacinar/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-17T21:50:45.465706+00:00"
 }
