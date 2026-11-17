@@ -15,5 +15,12 @@
   "criado_em": "2026-11-17T17:55:45-03:00",
   "aprovado_em": "2026-11-17T17:55:45-03:00",
   "horario": "2026-11-17T18:00:00-03:00",
-  "status": "aprovado"
+  "status": "publicado",
+  "resultado": {
+    "instagram": {
+      "id": "18133305778796916",
+      "link": "https://www.instagram.com/p/Df22NArjbAj/"
+    }
+  },
+  "movido_em": "2026-11-17T21:00:44.039130+00:00"
 }
