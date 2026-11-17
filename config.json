@@ -13,7 +13,8 @@
       "pagina_id": "",
       "plataformas": [
         "instagram"
-      ]
+      ],
+      "token_env": "META_TOKEN_ALTOURUGUAI"
     }
   }
 }

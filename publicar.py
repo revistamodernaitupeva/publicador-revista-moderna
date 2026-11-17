@@ -61,15 +61,27 @@ def url_imagem(nome):
             f"{urllib.parse.quote(nome)}")
 
 
-def esperar_pronto(container_id, tentativas=24):
+def esperar_pronto(container_id, tentativas=24, token=None):
     for _ in range(tentativas):
-        st = api("GET", container_id, TOKEN, fields="status_code").get("status_code")
+        st = api("GET", container_id, token or TOKEN, fields="status_code").get("status_code")
         if st == "FINISHED":
             return
         if st in ("ERROR", "EXPIRED"):
             raise MetaError(f"container {container_id} com status {st}")
         time.sleep(5)
     raise MetaError(f"container {container_id} nao ficou pronto a tempo")
+
+
+def token_da_conta(post):
+    """Chave da Meta da conta do post (cada conta pode ter a sua)."""
+    nome = post.get("conta")
+    if not nome:
+        return TOKEN
+    var = CONTAS.get(nome, {}).get("token_env")
+    t = os.environ.get(var, "") if var else ""
+    if var and not t:
+        raise MetaError(f"conta '{nome}': Secret {var} nao configurado")
+    return t or TOKEN
 
 
 def conta_do_post(post):
@@ -88,42 +100,44 @@ def conta_do_post(post):
 
 def publicar_instagram(post):
     IG, _ = conta_do_post(post)
+    T = token_da_conta(post)
     imgs, legenda = post["imagens"], post["legenda"]
     if len(imgs) == 1:
-        c = api("POST", f"{IG}/media", TOKEN,
+        c = api("POST", f"{IG}/media", T,
                 image_url=url_imagem(imgs[0]), caption=legenda)["id"]
-        esperar_pronto(c)
+        esperar_pronto(c, token=T)
     else:
         filhos = []
         for n in imgs:
-            f = api("POST", f"{IG}/media", TOKEN,
+            f = api("POST", f"{IG}/media", T,
                     image_url=url_imagem(n), is_carousel_item="true")["id"]
             filhos.append(f)
         for f in filhos:
-            esperar_pronto(f)
-        c = api("POST", f"{IG}/media", TOKEN, media_type="CAROUSEL",
+            esperar_pronto(f, token=T)
+        c = api("POST", f"{IG}/media", T, media_type="CAROUSEL",
                 children=",".join(filhos), caption=legenda)["id"]
-        esperar_pronto(c)
-    media_id = api("POST", f"{IG}/media_publish", TOKEN, creation_id=c)["id"]
+        esperar_pronto(c, token=T)
+    media_id = api("POST", f"{IG}/media_publish", T, creation_id=c)["id"]
     try:
-        link = api("GET", media_id, TOKEN, fields="permalink").get("permalink")
+        link = api("GET", media_id, T, fields="permalink").get("permalink")
     except MetaError:
         link = None
     return {"id": media_id, "link": link}
 
 
-def token_pagina(PAGINA):
+def token_pagina(PAGINA, base=None):
+    base = base or TOKEN
     try:
-        return api("GET", PAGINA, TOKEN, fields="access_token")["access_token"]
+        return api("GET", PAGINA, base, fields="access_token")["access_token"]
     except (MetaError, KeyError):
-        return TOKEN
+        return base
 
 
 def publicar_facebook(post):
     _, PAGINA = conta_do_post(post)
     if not PAGINA:
         raise MetaError("esta conta nao tem pagina_id no config.json")
-    tp = token_pagina(PAGINA)
+    tp = token_pagina(PAGINA, token_da_conta(post))
     imgs, legenda = post["imagens"], post["legenda"]
     if len(imgs) == 1:
         r = api("POST", f"{PAGINA}/photos", tp, url=url_imagem(imgs[0]),

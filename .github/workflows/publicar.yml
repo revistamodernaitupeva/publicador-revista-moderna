@@ -26,6 +26,7 @@ jobs:
       - name: Publicar o que esta na hora
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_TOKEN_ALTOURUGUAI: ${{ secrets.META_TOKEN_ALTOURUGUAI }}
           WP_USUARIO: ${{ secrets.WP_USUARIO }}
           WP_SENHA: ${{ secrets.WP_SENHA }}
           SIMULACAO: ${{ inputs.simulacao || 'false' }}

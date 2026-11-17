@@ -47,4 +47,4 @@ Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade 
 - O padrão continua sendo Itupeva (`instagram_id`/`pagina_id` do topo do `config.json`).
 - Para publicar em outra conta, ponha no JSON do post `"conta": "altouruguai"`. Os IDs ficam em `config.json` → `contas`.
 - Uma conta extra publica só nas `plataformas` definidas para ela (Alto Uruguai: só Instagram; nunca vai para o site de Itupeva).
-- A chave `META_TOKEN` (usuário do sistema "Publicador") precisa ter acesso ao Instagram/Página dessa conta no Gerenciador de Negócios da Meta. Confira rodando o workflow "Teste de conexao Meta".
+- Cada conta pode ter sua chave: `token_env` em `contas` aponta o Secret (Alto Uruguai: `META_TOKEN_ALTOURUGUAI`, do portfólio "Look do dia"). Sem `token_env`, usa `META_TOKEN`, que precisa ter acesso ao Instagram/Página dessa conta no Gerenciador de Negócios da Meta. Confira rodando o workflow "Teste de conexao Meta".
