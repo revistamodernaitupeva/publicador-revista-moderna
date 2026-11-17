@@ -15,7 +15,22 @@
   "foto_credito": "Fabio Rodrigues-Pozzebom / Agência Brasil",
   "licenca_verificada": false,
   "criado_em": "2026-11-17T16:20:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-17T16:05:00-03:00",
-  "aprovado_em": "2026-11-17T16:01:00-03:00"
+  "aprovado_em": "2026-11-17T16:01:00-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18144062776614672",
+      "link": "https://www.instagram.com/p/Df2og3FCb6L/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1784661483664282"
+    },
+    "site": {
+      "id": 11428,
+      "link": "https://arevistamoderna.com.br/dino-decide-que-escala-5x2-sera-julgada-de-forma-definitiva-pelo-stf/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-17T19:01:13.891901+00:00"
 }
