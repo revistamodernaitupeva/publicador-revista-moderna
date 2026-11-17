@@ -13,6 +13,7 @@
   "foto_credito": "Divulgação",
   "licenca_verificada": false,
   "criado_em": "2026-11-17T18:27:26-03:00",
-  "horario_sugerido": "2026-11-18T22:00:00-03:00",
-  "status": "rascunho"
+  "status": "aprovado",
+  "horario": "2026-11-18T22:00:00-03:00",
+  "aprovado_em": "2026-11-17T18:30:33-03:00"
 }
