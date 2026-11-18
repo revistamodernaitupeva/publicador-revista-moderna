@@ -15,7 +15,22 @@
   "foto_credito": "Prefeitura de João Pessoa (arquivo)",
   "licenca_verificada": false,
   "criado_em": "2026-11-17T16:57:47.350989+00:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-17T23:00:00-03:00",
-  "aprovado_em": "2026-11-17T16:16:00-03:00"
+  "aprovado_em": "2026-11-17T16:16:00-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "17882937627651664",
+      "link": "https://www.instagram.com/p/Df3XXruDS1Q/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1784927863637644"
+    },
+    "site": {
+      "id": 11441,
+      "link": "https://arevistamoderna.com.br/corredor-de-umidade-leva-chuva-forte-a-quase-todo-o-pais-inmet-emite-alertas/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-18T01:50:42.114674+00:00"
 }
