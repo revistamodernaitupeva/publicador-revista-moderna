@@ -8,11 +8,26 @@
   "foto_credito": "NU iGEM / Wikimedia Commons (CC BY 4.0)",
   "licenca_verificada": true,
   "horario": "2026-11-18T18:20:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Defesa Civil emite alerta de temporal com raios, ventos fortes e granizo para Itupeva, Louveira e Jundiaí",
     "texto": "A Defesa Civil emitiu um alerta de chuva forte para as cidades de Itupeva e Louveira, com deslocamento em direção a Jundiaí. A previsão é de temporal acompanhado de raios, ventos fortes e queda de granizo.\n\nA orientação é buscar abrigo imediatamente. Evite áreas abertas, não se proteja debaixo de árvores e mantenha distância de postes, fiações elétricas e locais sujeitos a alagamentos.\n\nMotoristas devem redobrar a atenção, reduzir a velocidade e manter distância segura dos demais veículos, principalmente nas rodovias da região.\n\nEm caso de emergência, a população pode acionar a Defesa Civil pelo telefone 199 ou o Corpo de Bombeiros pelo 193.",
     "imagem": "2026-11-18-1820-alerta-temporal-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17913547290570641",
+      "link": "https://www.instagram.com/p/Df5dRWCIL8E/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1785888646874899"
+    },
+    "site": {
+      "id": 11477,
+      "link": "https://arevistamoderna.com.br/defesa-civil-emite-alerta-de-temporal-com-raios-ventos-fortes-e-granizo-para-itupeva-louveira-e-jundiai/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-18T21:20:43.799507+00:00"
 }
