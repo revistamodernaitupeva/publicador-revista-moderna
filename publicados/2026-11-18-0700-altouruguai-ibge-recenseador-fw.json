@@ -13,7 +13,14 @@
   "foto_credito": "Arquivo AU",
   "licenca_verificada": false,
   "criado_em": "2026-11-17T18:27:26-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-18T07:00:00-03:00",
-  "aprovado_em": "2026-11-17T18:30:33-03:00"
+  "aprovado_em": "2026-11-17T18:30:33-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18241698262320020",
+      "link": "https://www.instagram.com/p/Df4OTsbl_52/"
+    }
+  },
+  "movido_em": "2026-11-18T09:50:37.419305+00:00"
 }
