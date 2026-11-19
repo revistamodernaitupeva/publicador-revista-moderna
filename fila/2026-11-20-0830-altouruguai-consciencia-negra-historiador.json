@@ -13,6 +13,7 @@
   "foto_credito": "Arquivo BD",
   "licenca_verificada": false,
   "criado_em": "2026-11-19T13:14:42-03:00",
-  "horario_sugerido": "2026-11-20T08:30:00-03:00",
-  "status": "rascunho"
+  "status": "aprovado",
+  "horario": "2026-11-20T08:30:00-03:00",
+  "aprovado_em": "2026-11-19T13:20:09-03:00"
 }
