@@ -8,11 +8,26 @@
   "foto_credito": "Rishabh Varshney / Wikimedia Commons (CC0)",
   "licenca_verificada": true,
   "horario": "2026-11-19T18:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Prefeitura de Itupeva fecha contrato para instalar mais de 1.200 câmeras de monitoramento nas escolas municipais",
     "texto": "A Prefeitura de Itupeva fechou contrato para a instalação de mais de 1.200 câmeras de monitoramento em todas as unidades escolares do município. Os ambientes serão monitorados 24 horas por dia, ampliando a segurança de alunos, professores e funcionários.\n\nA instalação começa nos próximos dias, e a previsão é que todo o sistema esteja implementado para o início do ano letivo de 2027.\n\nAlém das câmeras, as escolas terão porteiro eletrônico com reconhecimento facial.\n\nSegundo a Prefeitura, a medida traz mais segurança e tranquilidade para as famílias e cuidado com a comunidade escolar.",
     "imagem": "2026-11-19-1800-cameras-escolas-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17934204084420377",
+      "link": "https://www.instagram.com/p/Df7-ojhF2np/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1787145936749170"
+    },
+    "site": {
+      "id": 11496,
+      "link": "https://arevistamoderna.com.br/prefeitura-de-itupeva-fecha-contrato-para-instalar-mais-de-1-200-cameras-de-monitoramento-nas-escolas-municipais/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-19T20:51:00.025815+00:00"
 }
