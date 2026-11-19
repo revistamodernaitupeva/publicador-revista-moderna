@@ -13,7 +13,14 @@
   "foto_credito": "Ascom/Cotrifred",
   "licenca_verificada": false,
   "criado_em": "2026-11-18T23:11:38-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-19T11:30:00-03:00",
-  "aprovado_em": "2026-11-18T23:12:37-03:00"
+  "aprovado_em": "2026-11-18T23:12:37-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18121643306098707",
+      "link": "https://www.instagram.com/p/Df7R_9Nj7H9/"
+    }
+  },
+  "movido_em": "2026-11-19T14:20:31.191123+00:00"
 }
