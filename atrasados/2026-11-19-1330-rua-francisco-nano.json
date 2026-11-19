@@ -8,7 +8,7 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-19T13:30:00-03:00",
-  "status": "aprovado",
+  "status": "falhou",
   "site": {
     "titulo": "Prefeitura de Jundiaí conclui drenagem e troca paralelepípedos por asfalto na Rua Francisco Nano, na Vila Progresso",
     "texto": "A Prefeitura de Jundiaí concluiu as obras de implantação do sistema de drenagem e de pavimentação da Rua Francisco Nano, na Vila Progresso.\n\nCom a finalização dos trabalhos, os antigos paralelepípedos da via deram lugar a um novo pavimento asfáltico, garantindo mais segurança aos motoristas e moradores.\n\nAs intervenções foram realizadas pela Secretaria de Infraestrutura e Serviços Públicos, que reúne diferentes frentes de trabalho voltadas à melhoria da infraestrutura urbana. Equipes da operação tapa-buracos percorreram diversos bairros e corredores viários para executar reparos nas vias.\n\nAlém das melhorias na Vila Progresso, a Prefeitura realizou, no último fim de semana, um mutirão de manutenção viária em diferentes regiões de Jundiaí.",
@@ -24,5 +24,7 @@
       "id": "1048345461884189_1786912520105845"
     }
   },
-  "tentativas": 2
+  "tentativas": 3,
+  "motivo": "falhou apos varias tentativas",
+  "movido_em": "2026-11-19T16:40:17.820728+00:00"
 }
