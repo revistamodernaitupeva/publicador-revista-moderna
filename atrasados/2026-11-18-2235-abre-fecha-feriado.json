@@ -8,7 +8,7 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-18T22:35:00-03:00",
-  "status": "aprovado",
+  "status": "falhou",
   "site": {
     "titulo": "Prefeitura de Jundiaí divulga o Abre e Fecha do feriado de 20 de novembro: confira o que funciona e o que fecha",
     "texto": "Por causa do feriado da Consciência Negra, em 20 de novembro, a Prefeitura de Jundiaí divulgou como ficam os serviços na cidade.\n\nOs setores administrativos, como o Paço Municipal, as secretarias externas, o Procon, a Jundiaí Empreendedora e a FUNSS, não terão expediente na sexta-feira (20) e voltam a funcionar na segunda-feira (23).\n\nNa saúde, as UBSs, as Clínicas da Família, os ambulatórios, o CTA, a Farmácia de Alto Custo e os CAPS 2 e Infantojuvenil encerram o atendimento nesta quinta-feira (19) e reabrem na segunda (23). Os pronto-atendimentos Ponte São João e Retiro funcionam das 7h às 18h. O PA Hortolândia, o PA Central e a UPA Vetor Oeste atendem 24 horas, assim como o CAPS AD e o CAPS 3, que seguem abertos para acolhidos.\n\nO transporte público segue a programação de domingos e não haverá aula na Rede Municipal de Ensino. Parques e centros esportivos funcionam normalmente e a coleta de lixo segue o cronograma regular. A Guarda Municipal (153) e a Defesa Civil (199) atendem 24 horas.",
@@ -24,5 +24,7 @@
       "id": "1048345461884189_1786093953521035"
     }
   },
-  "tentativas": 2
+  "tentativas": 3,
+  "motivo": "falhou apos varias tentativas",
+  "movido_em": "2026-11-19T01:47:28.446591+00:00"
 }
