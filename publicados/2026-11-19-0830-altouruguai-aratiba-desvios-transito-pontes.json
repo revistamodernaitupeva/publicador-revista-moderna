@@ -13,7 +13,14 @@
   "foto_credito": "Rádio Aratiba",
   "licenca_verificada": false,
   "criado_em": "2026-11-18T23:11:38-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-19T08:30:00-03:00",
-  "aprovado_em": "2026-11-18T23:12:37-03:00"
+  "aprovado_em": "2026-11-18T23:12:37-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18198253660402478",
+      "link": "https://www.instagram.com/p/Df69ZsEF_OV/"
+    }
+  },
+  "movido_em": "2026-11-19T11:20:35.770919+00:00"
 }
