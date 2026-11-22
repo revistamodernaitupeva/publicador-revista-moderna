@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-22T18:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Itupeva realiza o 6º Miss Beleza Negra no Cine Teatro e Vanessa Faganeli conquista o título de 2026",
     "texto": "Itupeva realizou na sexta-feira (20), no Cine Teatro, a 6ª edição do Miss Beleza Negra 2026, em celebração ao Dia da Consciência Negra.\n\nO evento reuniu dez candidatas em desfiles e apresentações culturais que valorizaram a identidade afro-brasileira.\n\nVanessa de Jesus Santos Faganeli conquistou o título de Miss Beleza Negra e recebeu R$ 5 mil. Já Rafaela Silva de Carvalho foi eleita Miss Simpatia, com prêmio de R$ 3,5 mil.\n\nA programação contou ainda com poesia, literatura e dança.",
     "imagem": "2026-11-22-1800-miss-beleza-negra-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17991785259096552",
+      "link": "https://www.instagram.com/p/DgDtBE9mi6M/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1790788753051555"
+    },
+    "site": {
+      "id": 11507,
+      "link": "https://arevistamoderna.com.br/itupeva-realiza-o-6o-miss-beleza-negra-no-cine-teatro-e-vanessa-faganeli-conquista-o-titulo-de-2026/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-22T20:50:50.982876+00:00"
 }
