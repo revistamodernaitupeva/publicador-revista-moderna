@@ -13,7 +13,14 @@
   "foto_credito": "Divulgação",
   "licenca_verificada": false,
   "criado_em": "2026-11-22T17:26:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-22T19:30:00-03:00",
-  "aprovado_em": "2026-11-22T17:30:23-03:00"
+  "aprovado_em": "2026-11-22T17:30:23-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18135049942896521",
+      "link": "https://www.instagram.com/p/DgD3UB4iX1g/"
+    }
+  },
+  "movido_em": "2026-11-22T22:20:35.451640+00:00"
 }
