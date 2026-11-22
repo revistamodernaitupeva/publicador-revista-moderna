@@ -8,11 +8,26 @@
   "foto_credito": "Marco Aurélio Esparz… / Wikimedia Commons (CC BY-SA 3.0)",
   "licenca_verificada": true,
   "horario": "2026-11-22T17:10:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Caravana de Natal da Coca-Cola passa por Jundiaí e leva a magia das festas de fim de ano para a cidade",
     "texto": "A Caravana de Natal da Coca-Cola FEMSA Brasil passou por Jundiaí, espalhando encanto e emoção e trazendo o clima especial das festas de fim de ano para a cidade.\n\nDe acordo com a Prefeitura, essa foi apenas a primeira atração da temporada: a celebração de Natal em Jundiaí está só começando, e a expectativa é de mais momentos mágicos nos próximos dias.\n\nImagem ilustrativa de uma caravana de Natal em outra cidade. Foto: Marco Aurélio Esparz… / Wikimedia Commons (CC BY-SA 3.0).",
     "imagem": "2026-11-22-1710-caravana-natal-jundiai-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18115344803160706",
+      "link": "https://www.instagram.com/p/DgDocCdiVF1/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1790759273054503"
+    },
+    "site": {
+      "id": 11498,
+      "link": "https://arevistamoderna.com.br/caravana-de-natal-da-coca-cola-passa-por-jundiai-e-leva-a-magia-das-festas-de-fim-de-ano-para-a-cidade/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-22T20:10:40.042293+00:00"
 }
