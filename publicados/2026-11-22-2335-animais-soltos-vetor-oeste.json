@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-22T23:35:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Prefeitura de Jundiaí intensifica a recolha gratuita de animais soltos no Vetor Oeste; veja como denunciar",
     "texto": "A Prefeitura de Jundiaí intensificou a recolha de animais soltos na cidade. A ação é reforçada no Vetor Oeste, região que concentra o maior volume de reclamações sobre cavalos circulando em avenidas e ruas.\n\nO reforço atende moradores do Residencial Jundiaí, Tulipas, Novo Horizonte, Fazenda Grande e do Varjão. A remoção é gratuita: o animal é retirado do local e encaminhado para um espaço seguro.\n\nComo denunciar: pelo canal 156, de segunda a sexta, das 8h às 18h. Fora desse horário, incluindo fins de semana e feriados, o telefone é (11) 99795-9973. Em caso de urgência, também é possível acionar a Guarda Municipal pelo 153.\n\nA denúncia vale para animais de grande porte, como bovinos, equinos e muares. É importante informar a via, um ponto de referência, a quantidade de animais e se eles estão em local de grande circulação.",
     "imagem": "2026-11-22-2335-animais-soltos-vetor-oeste-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17990753142095290",
+      "link": "https://www.instagram.com/p/DgET7bplYAH/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1791030303027400"
+    },
+    "site": {
+      "id": 11522,
+      "link": "https://arevistamoderna.com.br/prefeitura-de-jundiai-intensifica-a-recolha-gratuita-de-animais-soltos-no-vetor-oeste-veja-como-denunciar/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-23T02:30:51.314852+00:00"
 }
