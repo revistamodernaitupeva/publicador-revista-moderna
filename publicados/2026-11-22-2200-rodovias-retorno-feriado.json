@@ -8,11 +8,26 @@
   "foto_credito": "Fernandin oig / Wikimedia Commons (CC0)",
   "licenca_verificada": true,
   "horario": "2026-11-22T22:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Retorno do feriado tem 21 km de fila na Castello Branco e Interligação Planalto interditada nos dois sentidos",
     "texto": "Motoristas que retornam a São Paulo neste domingo (22), último dia do feriado prolongado, enfrentam pontos de congestionamento nas rodovias que ligam a capital ao litoral e ao interior.\n\nNa Rodovia dos Imigrantes, o tráfego estava congestionado no sentido São Paulo entre os km 70 e 46. Na Castello Branco, a fila chegava a 21 quilômetros no sentido da capital, entre os km 54 e 33.\n\nA Interligação Planalto, que conecta os sistemas Anchieta-Imigrantes, está interditada nos dois sentidos. Segundo o painel da Artesp, as rodovias concedidas registravam 71 quilômetros de congestionamento no estado.\n\nA recomendação é consultar as condições de tráfego antes de viajar e respeitar os limites de velocidade e a distância de segurança.\n\nImagem ilustrativa. Foto: Fernandin oig / Wikimedia Commons (CC0).",
     "imagem": "2026-11-22-2200-rodovias-retorno-feriado-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18143558338627672",
+      "link": "https://www.instagram.com/p/DgEJotdG6wA/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1790964263034004"
+    },
+    "site": {
+      "id": 11518,
+      "link": "https://arevistamoderna.com.br/retorno-do-feriado-tem-21-km-de-fila-na-castello-branco-e-interligacao-planalto-interditada-nos-dois-sentidos/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-23T01:00:58.711814+00:00"
 }
