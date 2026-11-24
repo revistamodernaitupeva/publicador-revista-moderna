@@ -13,7 +13,14 @@
   "foto_credito": "Aline Iora",
   "licenca_verificada": false,
   "criado_em": "2026-11-23T17:54:29-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-24T13:00:00-03:00",
-  "aprovado_em": "2026-11-23T18:07:35-03:00"
+  "aprovado_em": "2026-11-23T18:07:35-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18030202133872993",
+      "link": "https://www.instagram.com/p/DgIURr1l95R/"
+    }
+  },
+  "movido_em": "2026-11-24T15:50:37.506832+00:00"
 }
