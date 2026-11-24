@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-24T19:10:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Feirinha Delas volta ao Paço Municipal de Itupeva nos dias 26 e 27 com 30 empreendedoras",
     "texto": "A Prefeitura de Itupeva promove, nos dias 26 e 27 de novembro, a 2ª edição da Feirinha Delas, evento que valoriza o empreendedorismo feminino no município.\n\nSerão 30 empreendedoras participando, sendo 15 em cada dia, cada uma com espaço exclusivo para expor e vender seus produtos ao público.\n\nA feira acontece na quinta e na sexta-feira, das 9h às 16h, no Paço Municipal de Itupeva.\n\nA iniciativa dá visibilidade ao trabalho das mulheres da cidade e fortalece o comércio local.",
     "imagem": "2026-11-24-1910-feirinha-delas-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17969071473234295",
+      "link": "https://www.instagram.com/p/DgI_MJ0Fzpv/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1793310576132706"
+    },
+    "site": {
+      "id": 11617,
+      "link": "https://arevistamoderna.com.br/feirinha-delas-volta-ao-paco-municipal-de-itupeva-nos-dias-26-e-27-com-30-empreendedoras/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-24T22:05:42.257083+00:00"
 }
