@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-24T18:10:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Regularização fundiária avança em Itupeva: equipes da REURB fazem a selagem das casas do Residencial Chalé",
     "texto": "Equipes da Regularização Fundiária Urbana (REURB) estiveram no Residencial Chalé, em Itupeva, nesta terça-feira (24), para realizar a selagem das residências do bairro.\n\nO procedimento consiste na fixação de adesivos de identificação em cada lote. Embora simples, a etapa é importante para organizar as informações de cada imóvel e dar sequência ao processo de regularização.\n\nA ação integra o programa Moradia Legal, da Prefeitura de Itupeva, que busca regularizar a situação de imóveis e garantir mais segurança jurídica às famílias moradoras.\n\nA iniciativa representa mais um avanço na busca pela regularização dos imóveis do município.",
     "imagem": "2026-11-24-1810-reurb-residencial-chale-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18187368118437879",
+      "link": "https://www.instagram.com/p/DgI45ZIFwKa/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1793266416137122"
+    },
+    "site": {
+      "id": 11615,
+      "link": "https://arevistamoderna.com.br/regularizacao-fundiaria-avanca-em-itupeva-equipes-da-reurb-fazem-a-selagem-das-casas-do-residencial-chale/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-24T21:10:45.233002+00:00"
 }
