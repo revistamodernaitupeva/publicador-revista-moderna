@@ -98,9 +98,59 @@ def conta_do_post(post):
     return c["instagram_id"], c.get("pagina_id")
 
 
+def enviar_binario(url, token, caminho, extras=None):
+    """Envia o arquivo inteiro para o servidor de upload da Meta (rupload)."""
+    dados = Path(caminho).read_bytes()
+    h = {"Authorization": f"OAuth {token}", "offset": "0",
+         "file_size": str(len(dados)), "Content-Type": "application/octet-stream"}
+    h.update(extras or {})
+    req = urllib.request.Request(url, data=dados, method="POST", headers=h)
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        raise MetaError(f"upload HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:500]}")
+    except urllib.error.URLError as e:
+        raise MetaError(f"upload: falha de rede: {e}")
+
+
+def publicar_instagram_reel(post, IG, T):
+    """Reels: container resumable, envio do .mp4 direto para a Meta e publicacao."""
+    video = RAIZ / "fila" / post["video"]
+    c = api("POST", f"{IG}/media", T, media_type="REELS", upload_type="resumable",
+            caption=post["legenda"], share_to_feed="true",
+            cover_url=url_imagem(post["capa"]) if post.get("capa") else None)
+    cid = c["id"]
+    uri = c.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{V}/{cid}"
+    enviar_binario(uri, T, video)
+    esperar_pronto(cid, tentativas=120, token=T)   # video demora: ate 10 min
+    media_id = api("POST", f"{IG}/media_publish", T, creation_id=cid)["id"]
+    try:
+        link = api("GET", media_id, T, fields="permalink").get("permalink")
+    except MetaError:
+        link = None
+    return {"id": media_id, "link": link}
+
+
+def publicar_facebook_reel(post, PAGINA, tp):
+    """Reels da Pagina: start -> upload do .mp4 -> finish (publicado)."""
+    video = RAIZ / "fila" / post["video"]
+    ini = api("POST", f"{PAGINA}/video_reels", tp, upload_phase="start")
+    vid = ini["video_id"]
+    url = ini.get("upload_url") or f"https://rupload.facebook.com/video-upload/{V}/{vid}"
+    enviar_binario(url, tp, video)
+    fim = api("POST", f"{PAGINA}/video_reels", tp, upload_phase="finish",
+              video_id=vid, video_state="PUBLISHED", description=post["legenda"])
+    if not fim.get("success", True):
+        raise MetaError(f"reels do Facebook nao finalizou: {fim}")
+    return {"id": vid, "link": f"https://www.facebook.com/reel/{vid}"}
+
+
 def publicar_instagram(post):
     IG, _ = conta_do_post(post)
     T = token_da_conta(post)
+    if post["tipo"] == "reel":
+        return publicar_instagram_reel(post, IG, T)
     imgs, legenda = post["imagens"], post["legenda"]
     if len(imgs) == 1:
         c = api("POST", f"{IG}/media", T,
@@ -138,6 +188,8 @@ def publicar_facebook(post):
     if not PAGINA:
         raise MetaError("esta conta nao tem pagina_id no config.json")
     tp = token_pagina(PAGINA, token_da_conta(post))
+    if post["tipo"] == "reel":
+        return publicar_facebook_reel(post, PAGINA, tp)
     imgs, legenda = post["imagens"], post["legenda"]
     if len(imgs) == 1:
         r = api("POST", f"{PAGINA}/photos", tp, url=url_imagem(imgs[0]),
@@ -187,7 +239,7 @@ def texto_para_html(texto):
 def publicar_site(post):
     cfg = post["site"]
     # imagem destacada
-    nome = cfg.get("imagem") or post["imagens"][0]
+    nome = cfg.get("imagem") or (post.get("capa") if post["tipo"] == "reel" else post["imagens"][0])
     dados = (RAIZ / "fila" / nome).read_bytes()
     midia = wp("POST", "media", dados, {
         "Content-Type": "image/jpeg",
@@ -198,6 +250,10 @@ def publicar_site(post):
         creditos.append(f"Foto: {post['foto_credito']}")
     if post.get("fonte"):
         creditos.append(f"Fonte: {post['fonte']}")
+    link_video = (post.get("resultado", {}).get("instagram") or {}).get("link")
+    if post["tipo"] == "reel" and link_video:
+        conteudo += (f'\n<p><a href="{html.escape(link_video)}">'
+                     f"Assista ao vídeo no Instagram</a></p>")
     if creditos:
         conteudo += f"\n<p><em>{html.escape(' | '.join(creditos))}</em></p>"
     corpo = {"title": cfg["titulo"], "content": conteudo,
@@ -234,11 +290,15 @@ def derivar_site(post):
 
 
 def validar(post):
-    for campo in ("horario", "tipo", "imagens", "legenda"):
+    for campo in ("horario", "tipo", "legenda"):
         if campo not in post:
             return f"falta o campo '{campo}'"
-    if post["tipo"] not in ("feed", "carrossel"):
-        return "tipo deve ser 'feed' ou 'carrossel'"
+    if post["tipo"] not in ("feed", "carrossel", "reel"):
+        return "tipo deve ser 'feed', 'carrossel' ou 'reel'"
+    if post["tipo"] == "reel":
+        return validar_reel(post)
+    if "imagens" not in post:
+        return "falta o campo 'imagens'"
     imgs = post["imagens"]
     if not isinstance(imgs, list) or not imgs:
         return "'imagens' deve ser uma lista com pelo menos um arquivo"
@@ -268,6 +328,37 @@ def validar(post):
     return None
 
 
+def validar_reel(post):
+    v = post.get("video")
+    if not v:
+        return "tipo 'reel' precisa do campo 'video' (.mp4 na fila/)"
+    if not v.lower().endswith(".mp4"):
+        return f"{v}: o video deve ser .mp4"
+    pv = RAIZ / "fila" / v
+    if not pv.exists():
+        return f"{v}: arquivo nao encontrado na fila/"
+    if pv.stat().st_size > 95 * 1024 * 1024:
+        return f"{v}: maior que 95 MB"
+    capa = post.get("capa")
+    if capa:
+        if not capa.lower().endswith((".jpg", ".jpeg")):
+            return f"{capa}: a capa deve ser JPEG"
+        if not (RAIZ / "fila" / capa).exists():
+            return f"{capa}: capa nao encontrada na fila/"
+    if post.get("conta") and post["conta"] not in CONTAS:
+        return f"conta '{post['conta']}' nao existe em config.json (contas)"
+    if len(post["legenda"]) > 2200:
+        return "legenda passa de 2200 caracteres"
+    if "site" in post:
+        for campo in ("titulo", "texto"):
+            if not post["site"].get(campo):
+                return f"site: falta '{campo}'"
+        ni = post["site"].get("imagem")
+        if ni and not (RAIZ / "fila" / ni).exists():
+            return f"{ni}: imagem do site nao encontrada na fila/"
+    return None
+
+
 def salvar(caminho, post):
     caminho.write_text(json.dumps(post, ensure_ascii=False, indent=2),
                        encoding="utf-8")
@@ -277,6 +368,7 @@ def mover(arquivo_json, post, destino, status, motivo=None):
     pasta = RAIZ / destino
     pasta.mkdir(exist_ok=True)
     extras = [post["site"]["imagem"]] if post.get("site", {}).get("imagem") else []
+    extras += [post[k] for k in ("video", "capa") if post.get(k)]
     for n in post.get("imagens", []) + extras:
         origem = RAIZ / "fila" / n
         if origem.exists():

@@ -30,6 +30,13 @@ Guia para qualquer conversa do Claude (ou pessoa) continuar o trabalho.
 `python3 -I arte/montar_arte.py FOTO SAIDA.jpg "Linha1|Linha2|Linha3" crop=x0,y0,x1,y1`
 Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade diária de horários (BRT): 07:00, 09:30, 11:00, 12:30, 14:00, 15:30, 17:00, 18:30, 20:00, 21:30, 23:00.
 
+## Reels (vídeo)
+- `"tipo": "reel"`: na `fila/` vão `NOME.mp4` (vídeo vertical 1080x1920, H.264 + AAC, até 95 MB) + `NOME-capa.jpg` (capa) + `NOME-site.jpg` (1200x800, opcional) + `NOME.json`.
+- JSON: `{"tipo":"reel","video":"NOME.mp4","capa":"NOME-capa.jpg","legenda":"...","fonte":"Veículo","foto_credito":"","licenca_verificada":false,"horario":"AAAA-MM-DDTHH:MM:00-03:00","status":"aprovado","site":{"titulo":"...","texto":"...","imagem":"NOME-site.jpg","status":"publish"}}`.
+- Instagram: Reels por upload direto (resumable) com `share_to_feed`, capa por `cover_url`. Facebook: Reels da Página (`video_reels`, start/upload/finish). Site: imagem destacada = `site.imagem` (ou a capa) e link "Assista ao vídeo no Instagram".
+- O processamento do vídeo pela Meta pode levar alguns minutos; o robô espera até 10 min.
+- TikTok continua manual.
+
 ## Regras
 - Reescrever textos com palavras próprias; creditar foto e fonte; evitar temas sensíveis.
 - Não repetir matéria já publicada (ver `publicados/`).
