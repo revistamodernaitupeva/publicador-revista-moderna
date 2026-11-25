@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-24T23:50:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Incêndio atinge posto de saúde do Jundiaí Mirim, e atendimentos são suspensos até as reformas",
     "texto": "A Unidade Básica de Saúde (UBS) do bairro Jundiaí Mirim, em Jundiaí, teve um incêndio no início da noite desta terça-feira (24). O fogo foi controlado por soldados do Corpo de Bombeiros.\n\nDe acordo com a Prefeitura, os atendimentos ao público foram suspensos até que sejam feitas as reformas necessárias no local.\n\nOs pacientes com consultas marcadas para quarta-feira (25) e quinta-feira (26) vão receber ligações das funcionárias para reagendar os atendimentos. Se for necessário, as consultas de sexta-feira também podem ser suspensas.\n\nQuem precisar de atendimento de urgência deve procurar os pronto atendimentos da Prefeitura na Ponte São João, na Vila Hortolândia ou em frente ao Hospital São Vicente.",
     "imagem": "2026-11-24-2350-incendio-ubs-jundiai-mirim-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18657479023032101",
+      "link": "https://www.instagram.com/p/DgJfOq7DZ9z/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1793530876110676"
+    },
+    "site": {
+      "id": 11625,
+      "link": "https://arevistamoderna.com.br/incendio-atinge-posto-de-saude-do-jundiai-mirim-e-atendimentos-sao-suspensos-ate-as-reformas/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T02:45:45.064131+00:00"
 }
