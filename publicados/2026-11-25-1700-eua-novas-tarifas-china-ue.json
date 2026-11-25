@@ -8,7 +8,7 @@
   "foto_credito": "Downtowngal / Wikimedia Commons (CC BY-SA 4.0)",
   "licenca_verificada": true,
   "horario": "2026-11-25T17:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "EUA propõem novas tarifas de até 20% sobre China, União Europeia e outros 12 parceiros comerciais",
     "texto": "O governo dos Estados Unidos propôs, nesta quarta-feira (25), novas tarifas de até 20% sobre 14 parceiros comerciais, entre eles China, União Europeia, Japão e Índia. As medidas seguem uma investigação de oito meses sobre o excesso de capacidade industrial em outros países.\n\nAs tarifas se baseiam na Seção 301 da Lei de Comércio de 1974. A maior alíquota, de 20%, é a da China, que Washington acusa de inundar o mercado mundial com exportações baratas, de aço a veículos elétricos e produtos solares.\n\nAs medidas ainda não entram em vigor: dependem de audiências e de um período de consulta pública, e o governo diz que isso deve ocorrer em janeiro, no mínimo. O México e a Noruega ficaram de fora por enquanto.\n\nO Ministério do Comércio da China rejeitou a base das novas tarifas.\n\nImagem ilustrativa: navio de contêineres no Porto de Los Angeles. Imagem: Downtowngal / Wikimedia Commons (CC BY-SA 4.0). Fonte: Reuters. Texto de Revista Moderna.",
@@ -23,7 +23,12 @@
       "id": 11669,
       "link": "https://arevistamoderna.com.br/eua-propoem-novas-tarifas-de-ate-20-sobre-china-uniao-europeia-e-outros-12-parceiros-comerciais/",
       "status": "publish"
+    },
+    "instagram": {
+      "id": "18119312945034366",
+      "link": "https://www.instagram.com/p/DgLVGewlx7X/"
     }
   },
-  "tentativas": 1
+  "tentativas": 1,
+  "movido_em": "2026-11-25T19:55:32.426273+00:00"
 }
