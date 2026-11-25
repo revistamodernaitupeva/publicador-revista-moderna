@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-25T12:30:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Corrida Encantada de Itupeva será no dia 5 de dezembro, no Parque da Cidade, com 5 km noturnos",
     "texto": "Itupeva vai receber, no dia 5 de dezembro, a 1ª Corrida Encantada, uma programação esportiva noturna em clima natalino no Parque da Cidade.\n\nO evento reúne corrida e caminhada de 5 km, com largada às 19h. Os moradores de Itupeva contam com valor diferenciado na inscrição: no primeiro lote, a taxa é de R$ 85.\n\nOs participantes recebem kit com camiseta e medalha. A corrida terá premiação geral, por faixa etária e para as três maiores equipes inscritas.\n\nA Corrida Encantada é organizada pela Raveli Sports, com apoio da Prefeitura de Itupeva. As inscrições estão disponíveis no site ravelisports.com.br.",
     "imagem": "2026-11-25-1230-corrida-encantada-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18111014006281389",
+      "link": "https://www.instagram.com/p/DgK1ppsl0xp/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1794236189373478"
+    },
+    "site": {
+      "id": 11653,
+      "link": "https://arevistamoderna.com.br/corrida-encantada-de-itupeva-sera-no-dia-5-de-dezembro-no-parque-da-cidade-com-5-km-noturnos/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T15:20:49.462242+00:00"
 }
