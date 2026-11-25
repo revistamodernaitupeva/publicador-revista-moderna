@@ -7,11 +7,27 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-25T08:05:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Estradas ruins no bairro Sant James preocupam donos de chácaras em Campo Limpo Paulista",
     "texto": "Moradores do bairro Sant James, em Campo Limpo Paulista, estão preocupados com as condições das estradas da região, que pioraram após as chuvas dos últimos dias e diante da falta de manutenção das vias públicas.\n\nO bairro reúne diversas chácaras de lazer que costumam ser alugadas por famílias para as festas de Natal e Ano-Novo. Com as vias em más condições, os proprietários temem que os clientes não consigam chegar aos imóveis e desistam do aluguel, o que pode levar à devolução de valores já recebidos em uma das épocas mais importantes do ano para quem depende dessa renda.\n\nSegundo os moradores, ainda não há previsão de quando a Prefeitura de Campo Limpo Paulista fará a manutenção. Eles cobram uma ação rápida antes que a situação comprometa os contratos de fim de ano.",
     "imagem": "2026-11-25-0805-reel-estradas-sant-james-campo-limpo-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17955591531342607",
+      "link": "https://www.instagram.com/reel/DgKYd40AP-8/"
+    },
+    "facebook": {
+      "id": "1572148468079850",
+      "link": "https://www.facebook.com/reel/1572148468079850"
+    },
+    "site": {
+      "id": 11635,
+      "link": "https://arevistamoderna.com.br/estradas-ruins-no-bairro-sant-james-preocupam-donos-de-chacaras-em-campo-limpo-paulista/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T11:06:20.011406+00:00"
 }
