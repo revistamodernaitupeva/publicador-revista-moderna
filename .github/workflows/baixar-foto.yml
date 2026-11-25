@@ -12,10 +12,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: baixar-foto
-  cancel-in-progress: false
-
 jobs:
   baixar:
     runs-on: ubuntu-latest
@@ -37,7 +33,7 @@ jobs:
             echo "Nada a salvar."
           else
             git commit -m "Foto baixada: ${FOTO_NOME}"
-            for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+            for i in 1 2 3 4 5 6; do git pull --rebase && git push && break; sleep $((RANDOM % 8 + 3)); done
           fi
         env:
           FOTO_NOME: ${{ inputs.nome }}
