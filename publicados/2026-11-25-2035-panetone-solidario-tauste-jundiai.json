@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-25T20:36:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Panetone Solidário do Tauste vai virar doação ao Instituto Luiz Braille de Jundiaí",
     "texto": "A padaria do Tauste, em Jundiaí, está transformando a tradição do panetone em gesto de solidariedade neste Natal. A iniciativa do Panetone Solidário ganhou os holofotes com uma visita aos bastidores da produção.\n\nEm 2026, o Tauste vai doar o valor equivalente à venda de 15 mil panetones ao Instituto Luiz Braille de Jundiaí.\n\nA instituição realiza um importante trabalho de atendimento e inclusão de pessoas com deficiência visual na cidade.\n\nNos bastidores, os profissionais que produzem os panetones contam o orgulho de fazer parte da campanha, que une a tradição natalina à inclusão e à esperança.\n\nFonte: Tribuna de Jundiaí | Texto de Revista Moderna",
     "imagem": "2026-11-25-2035-panetone-solidario-tauste-jundiai-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18021076895745521",
+      "link": "https://www.instagram.com/p/DgLuRhwmgbe/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1794669529330144"
+    },
+    "site": {
+      "id": 11673,
+      "link": "https://arevistamoderna.com.br/panetone-solidario-do-tauste-vai-virar-doacao-ao-instituto-luiz-braille-de-jundiai/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T23:35:40.361837+00:00"
 }
