@@ -7,11 +7,27 @@
   "foto_credito": "Marcelo Mazzolli / Wikimedia Commons, CC BY-SA 4.0 (ilustrativa)",
   "licenca_verificada": true,
   "horario": "2026-11-25T07:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Onças-pardas são flagradas em mata de Cabreúva, aponta pesquisa da Unicamp",
     "texto": "Câmeras automáticas instaladas por pesquisadoras da Unicamp registraram onças-pardas cinco vezes em uma área isolada de mata de Cabreúva, nas proximidades da Fazenda Cruz Alta e do Rio Tietê. Os flagras aconteceram à noite, horário em que os felinos costumam circular em busca de alimento e explorar o território.\n\nO estudo, publicado em outubro de 2026, foi desenvolvido pelas pesquisadoras Heloísa Silva Antunes e Eleonore Zulnara Freire Setz, do Laboratório de Ecologia e Comportamento de Mamíferos (LAMA) do Instituto de Biologia da Unicamp. Ao todo, foram 17 registros de onças-pardas em propriedades próximas ao Tietê, entre Cabreúva e Itu.\n\nO objetivo da pesquisa foi entender como os animais usam as áreas de vegetação às margens do rio para se deslocar entre diferentes regiões.\n\nImagem ilustrativa.",
     "imagem": "2026-11-25-0700-reel-oncas-pardas-cabreuva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18479352517139501",
+      "link": "https://www.instagram.com/reel/DgKP37cR6Wt/"
+    },
+    "facebook": {
+      "id": "1192048337108977",
+      "link": "https://www.facebook.com/reel/1192048337108977"
+    },
+    "site": {
+      "id": 11629,
+      "link": "https://arevistamoderna.com.br/oncas-pardas-sao-flagradas-em-mata-de-cabreuva-aponta-pesquisa-da-unicamp/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T09:51:11.655762+00:00"
 }
