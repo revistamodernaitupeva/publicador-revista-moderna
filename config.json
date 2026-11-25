@@ -16,5 +16,12 @@
       ],
       "token_env": "META_TOKEN_ALTOURUGUAI"
     }
-  }
+  },
+  "dominios_foto": [
+    "oaltouruguai.com.br",
+    "jornalboavista.com.br",
+    "jornalbomdia.com.br",
+    "radioaratiba.com.br",
+    "comunidadeviadutos.com.br"
+  ]
 }

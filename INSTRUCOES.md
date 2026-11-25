@@ -58,3 +58,8 @@ Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade 
 - **Arte do Alto Uruguai:** `python3 -I arte/montar_arte_altouruguai.py FOTO SAIDA.jpg "Título longo da matéria" crop=x0,y0,x1,y1` (modelo `arte/template_altouruguai.png`, faixa clara, título Anton azul-escuro em maiúsculas e minúsculas, fonte 54, até 3 linhas largas, mesmo tamanho do modelo de Itupeva). Título de 80 a 110 caracteres, sem "|".
 - **Alto Uruguai – aprovação obrigatória:** toda matéria vai primeiro para `rascunhos/` (com `"conta": "altouruguai"`). Mostrar arte e legenda ao dono e só mover para `fila/` depois de ele responder "aprovar"/"aprovado". Nunca colocar direto na fila.
 - **Legenda do Alto Uruguai:** primeira linha sempre `📲 Siga @revistamoderna.altouruguai e fique por dentro das notícias da região.`, depois uma linha em branco, a matéria (2 parágrafos, o primeiro começando com emoji) e, no fim, `Fonte: <veículo>, com informações de <órgão>. Foto: <crédito>.`
+
+## Baixar foto pelo robô (sem depender do Chrome)
+Workflow "Baixar foto" (`.github/workflows/baixar-foto.yml` + `baixar_foto.py`). Disparo por REST:
+`gh api -X POST repos/revistamodernaitupeva/publicador-revista-moderna/actions/workflows/baixar-foto.yml/dispatches -f ref=main -f inputs[url]=URL_DA_IMAGEM -f inputs[nome]=nome-do-arquivo`
+A imagem vai para `fotos/nome.jpg|png|webp` (aguarde ~1 min e dê `git pull`). Só aceita https dos domínios em `config.json > dominios_foto`, só imagens e até 15 MB.
