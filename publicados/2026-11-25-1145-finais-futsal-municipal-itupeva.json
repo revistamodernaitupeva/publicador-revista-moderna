@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-25T11:45:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Itupeva define os campeões do futsal municipal em três finais, de quinta a sábado, no Ginásio Dorival Raymundo",
     "texto": "Itupeva vai conhecer os campeões do futsal municipal nesta semana. A Secretaria de Esportes, Lazer e Cultura convida a população a prestigiar três finais, sempre no Ginásio Municipal de Esportes Dorival Raymundo.\n\nNa quinta-feira (26), às 19h30, a final do 10º Campeonato Feminino de Futsal reúne SBRI/Jogadoras Caras e Fênix.\n\nNa sexta-feira (27), às 19h30, a Segunda Divisão do 37º Campeonato Principal de Futsal tem a decisão entre Maximu's e MLKS da BDN.\n\nNo sábado (28), às 19h15, a Primeira Divisão do mesmo campeonato fecha a programação com BDN x Popeye/Esmeralda.\n\nA organização pede que as famílias levem a torcida para vibrar com os atletas nas três noites de decisão.",
     "imagem": "2026-11-25-1145-finais-futsal-municipal-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17988542931013823",
+      "link": "https://www.instagram.com/p/DgKxD7lF-Lg/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1794191662711264"
+    },
+    "site": {
+      "id": 11645,
+      "link": "https://arevistamoderna.com.br/itupeva-define-os-campeoes-do-futsal-municipal-em-tres-finais-de-quinta-a-sabado-no-ginasio-dorival-raymundo/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T14:40:42.351249+00:00"
 }
