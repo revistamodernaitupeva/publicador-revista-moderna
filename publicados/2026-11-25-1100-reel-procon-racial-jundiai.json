@@ -7,11 +7,27 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-25T11:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Jundiaí ganha Procon Racial, o primeiro do interior paulista",
     "texto": "Jundiaí implantou o Procon Racial e se tornou a primeira cidade do interior paulista, e a segunda do Brasil, a contar com o serviço. O programa tem como objetivo acolher, orientar e combater casos de racismo e discriminação nas relações de consumo, com atendimento especializado e ações de conscientização e prevenção.\n\nSegundo a Prefeitura, a proposta vai além da punição: a ideia é prevenir, educar e garantir que todos tenham seus direitos respeitados.\n\nO Procon Racial já está em funcionamento na Rua Barão de Jundiaí, 153, no Centro, junto ao Procon tradicional.",
     "imagem": "2026-11-25-1100-reel-procon-racial-jundiai-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18402747316164630",
+      "link": "https://www.instagram.com/reel/DgKrWeoNKa-/"
+    },
+    "facebook": {
+      "id": "2053828758568187",
+      "link": "https://www.facebook.com/reel/2053828758568187"
+    },
+    "site": {
+      "id": 11643,
+      "link": "https://arevistamoderna.com.br/jundiai-ganha-procon-racial-o-primeiro-do-interior-paulista/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T13:51:17.559541+00:00"
 }
