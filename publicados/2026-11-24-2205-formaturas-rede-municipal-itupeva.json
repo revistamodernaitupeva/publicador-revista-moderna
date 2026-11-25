@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-24T22:05:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Formaturas da rede municipal de Itupeva começam com 1.539 alunos do G5 e do 5º ano",
     "texto": "A temporada de formaturas da rede municipal de ensino de Itupeva começou na segunda-feira (23), com as cerimônias dos alunos do G5 (Educação Infantil) e do 5º ano do Ensino Fundamental.\n\nAs celebrações são realizadas no Espaço Eternize e seguem até 10 de dezembro, reunindo estudantes de todas as unidades escolares do município.\n\nA programação deste ano contempla 1.539 alunos: 779 crianças do G5 e 760 estudantes do 5º ano, que celebram a conclusão de etapas importantes da trajetória escolar.\n\nA primeira cerimônia foi a dos alunos do CEMEB Nilma Ernestina Cirtellazzi Tartalha, com a presença do prefeito Rogério Cavalin e da secretária de Educação, Monica Oliveira. Todas as escolas da rede municipal terão suas cerimônias no mesmo espaço até o dia 10 de dezembro.",
     "imagem": "2026-11-24-2205-formaturas-rede-municipal-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18347172817257681",
+      "link": "https://www.instagram.com/p/DgJTx3kDSH4/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1793446269452470"
+    },
+    "site": {
+      "id": 11621,
+      "link": "https://arevistamoderna.com.br/formaturas-da-rede-municipal-de-itupeva-comecam-com-1-539-alunos-do-g5-e-do-5o-ano/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-25T01:05:35.628956+00:00"
 }
