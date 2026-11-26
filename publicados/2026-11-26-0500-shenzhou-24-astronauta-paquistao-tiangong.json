@@ -8,11 +8,26 @@
   "foto_credito": "中国新闻社 / Wikimedia Commons (CC BY 4.0)",
   "licenca_verificada": true,
   "horario": "2026-11-26T05:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "China lança Shenzhou-24 com o primeiro astronauta do Paquistão rumo à estação Tiangong",
     "texto": "A China lançou na quarta-feira (25) a nave Shenzhou-24, que levou ao espaço o primeiro astronauta do Paquistão. A decolagem ocorreu às 00h18 GMT, a bordo de um foguete Long March-2F, no centro de lançamento de Jiuquan, no noroeste do país.\n\nA tripulação é formada pelos chineses Tang Hongbo e Wu Yi e pelo paquistanês Muhammad Zeeshan Ali, de 40 anos, piloto da Força Aérea do Paquistão. Segundo a Reuters, é a primeira vez que um astronauta estrangeiro embarca na estação espacial chinesa.\n\nCerca de dez minutos após o lançamento, a nave se separou do foguete e entrou em órbita, segundo a Agência Espacial Tripulada da China. Por volta das 03h56 GMT, ela acoplou à estação Tiangong.\n\nEm Islamabad, estudantes e convidados reunidos na agência espacial paquistanesa cantaram o hino nacional quando o foguete decolou. O presidente da agência, Muhammad Yousaf Khan, disse que o país pretende chegar à Lua até 2035, com um jipe lunar previsto para 2028.\n\nA imagem que ilustra esta matéria é de um lançamento anterior da série Shenzhou.\n\nFonte: Reuters / Al Jazeera | Imagem: 中国新闻社 / Wikimedia Commons (CC BY 4.0), ilustrativa | Texto de Revista Moderna",
     "imagem": "2026-11-26-0500-shenzhou-24-astronauta-paquistao-tiangong-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17946855810379951",
+      "link": "https://www.instagram.com/p/DgMm7YiDgxR/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1795049982625432"
+    },
+    "site": {
+      "id": 11675,
+      "link": "https://arevistamoderna.com.br/china-lanca-shenzhou-24-com-o-primeiro-astronauta-do-paquistao-rumo-a-estacao-tiangong/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-26T07:50:44.094809+00:00"
 }
