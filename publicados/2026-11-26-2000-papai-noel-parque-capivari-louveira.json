@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-26T20:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Papai Noel chega ao Parque Capivari, em Louveira, no dia 5 de dezembro, com acendimento das luzes",
     "texto": "A Prefeitura de Louveira anunciou a chegada do Papai Noel ao Parque Capivari. O evento acontece no sábado, 5 de dezembro, às 17h, e dá início ao Fim de Ano Especial Louveira 2026.\n\nLogo em seguida à chegada do Papai Noel, haverá o acendimento das luzes de fim de ano, com música e momentos pensados para encantar toda a família.\n\nA programação marca a abertura oficial do clima natalino na cidade. A prefeitura convida os moradores a levar quem amam para viver a noite no parque.\n\nFonte: Prefeitura de Louveira | Texto de Revista Moderna",
     "imagem": "2026-11-26-2000-papai-noel-parque-capivari-louveira-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17968233831217700",
+      "link": "https://www.instagram.com/p/DgON7QRDVOb/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1795908362539594"
+    },
+    "site": {
+      "id": 11715,
+      "link": "https://arevistamoderna.com.br/papai-noel-chega-ao-parque-capivari-em-louveira-no-dia-5-de-dezembro-com-acendimento-das-luzes/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-26T22:50:42.094556+00:00"
 }
