@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-26T18:35:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Jundiaiense de 10 anos é campeão brasileiro interclubes de karatê na categoria sub-12",
     "texto": "O atleta jundiaiense Enrico, de 10 anos, é o novo campeão brasileiro interclubes de karatê. Ele venceu o Campeonato Brasileiro Interclubes de Karatê 2026 na categoria sub-12.\n\nO torneio foi realizado em Londrina, no Paraná, e reuniu atletas de diferentes clubes do país.\n\nA conquista rendeu a medalha de ouro ao jovem lutador e foi celebrada por familiares e amigos nas redes sociais.\n\nA vitória coloca o nome de Jundiaí no pódio nacional da modalidade e serve de inspiração para outros jovens atletas da região.\n\nFonte: Pop TV | Texto de Revista Moderna",
     "imagem": "2026-11-26-1835-karate-enrico-campeao-brasileiro-jundiai-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18070145255685998",
+      "link": "https://www.instagram.com/p/DgOEx2EpR4-/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1795850859212011"
+    },
+    "site": {
+      "id": 11709,
+      "link": "https://arevistamoderna.com.br/jundiaiense-de-10-anos-e-campeao-brasileiro-interclubes-de-karate-na-categoria-sub-12/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-26T21:30:44.565549+00:00"
 }
