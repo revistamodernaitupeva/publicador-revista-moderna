@@ -11,9 +11,15 @@
   "horario": "2026-11-26T19:00:00-03:00",
   "origem": "2026-11-26-1730-altouruguai-banrisul-credito-emergencial-tupancireta.json",
   "titulo": "Banrisul libera R$ 100 milhões em crédito emergencial para famílias e empresas atingidas em Tupanciretã",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-26T18:00:31.494760-03:00",
   "criado_por": "stories_auto",
-  "resultado": {},
-  "tentativas": 1
+  "resultado": {
+    "instagram": {
+      "id": "17944329657401352",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4039199632702009717"
+    }
+  },
+  "tentativas": 1,
+  "movido_em": "2026-11-26T21:55:50.856431+00:00"
 }

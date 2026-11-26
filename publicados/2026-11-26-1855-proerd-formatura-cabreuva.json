@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-26T18:55:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Alunos do 5º ano de Cabreúva se formam no PROERD e autores das melhores redações recebem medalhas",
     "texto": "Os alunos do 5º ano das escolas públicas de Cabreúva participaram, na manhã desta quinta-feira (26), da formatura do PROERD, o Programa Educacional de Resistência às Drogas e à Violência. A cerimônia marcou o encerramento de uma importante etapa de aprendizado.\n\nAo longo do programa, os estudantes aprenderam sobre a importância de fazer escolhas seguras, manter uma convivência saudável e construir um futuro longe das drogas e da violência.\n\nComo parte das atividades, os alunos produziram redações com o tema \"O que eu aprendi no PROERD\". Em reconhecimento ao empenho e à dedicação, os autores das melhores redações foram premiados com medalhas.\n\nA Prefeitura parabenizou os formandos, os educadores, as famílias e os policiais instrutores que contribuíram para a jornada de aprendizado e cidadania.\n\nFonte: Prefeitura de Cabreúva | Texto de Revista Moderna",
     "imagem": "2026-11-26-1855-proerd-formatura-cabreuva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18102517508414064",
+      "link": "https://www.instagram.com/p/DgOHoZrF_5b/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1795868692543561"
+    },
+    "site": {
+      "id": 11711,
+      "link": "https://arevistamoderna.com.br/alunos-do-5o-ano-de-cabreuva-se-formam-no-proerd-e-autores-das-melhores-redacoes-recebem-medalhas/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-26T21:55:39.026224+00:00"
 }
