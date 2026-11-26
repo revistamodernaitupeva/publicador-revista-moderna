@@ -11,7 +11,14 @@
   "horario": "2026-11-26T00:21:00-03:00",
   "origem": "2026-11-25-2330-altouruguai-estacao-futevolei-veteranos.json",
   "titulo": "Estação conhece os campeões da categoria Veteranos do 6º Campeonato Municipal de Futevôlei",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-26T00:16:17.139385-03:00",
-  "criado_por": "teste"
+  "criado_por": "teste",
+  "resultado": {
+    "instagram": {
+      "id": "18137855356669108",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4038638334263838201"
+    }
+  },
+  "movido_em": "2026-11-26T03:20:43.025767+00:00"
 }
