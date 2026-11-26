@@ -13,7 +13,14 @@
   "foto_credito": "O Alto Uruguai",
   "licenca_verificada": false,
   "criado_em": "2026-11-26T18:26:43-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-26T18:35:00-03:00",
-  "aprovado_em": "2026-11-26T18:30:17-03:00"
+  "aprovado_em": "2026-11-26T18:30:17-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18191004886417539",
+      "link": "https://www.instagram.com/p/DgOFVeKDDVo/"
+    }
+  },
+  "movido_em": "2026-11-26T21:35:24.407006+00:00"
 }
