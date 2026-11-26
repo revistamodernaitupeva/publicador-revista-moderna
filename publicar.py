@@ -152,7 +152,11 @@ def publicar_instagram(post):
     if post["tipo"] == "reel":
         return publicar_instagram_reel(post, IG, T)
     imgs, legenda = post["imagens"], post["legenda"]
-    if len(imgs) == 1:
+    if post["tipo"] == "story":
+        c = api("POST", f"{IG}/media", T,
+                image_url=url_imagem(imgs[0]), media_type="STORIES")["id"]
+        esperar_pronto(c, token=T)
+    elif len(imgs) == 1:
         c = api("POST", f"{IG}/media", T,
                 image_url=url_imagem(imgs[0]), caption=legenda)["id"]
         esperar_pronto(c, token=T)
@@ -293,8 +297,10 @@ def validar(post):
     for campo in ("horario", "tipo", "legenda"):
         if campo not in post:
             return f"falta o campo '{campo}'"
-    if post["tipo"] not in ("feed", "carrossel", "reel"):
-        return "tipo deve ser 'feed', 'carrossel' ou 'reel'"
+    if post["tipo"] not in ("feed", "carrossel", "reel", "story"):
+        return "tipo deve ser 'feed', 'carrossel', 'reel' ou 'story'"
+    if post["tipo"] == "story" and "facebook" in post.get("plataformas", []):
+        return "story so pode ir para o instagram"
     if post["tipo"] == "reel":
         return validar_reel(post)
     if "imagens" not in post:
@@ -302,8 +308,8 @@ def validar(post):
     imgs = post["imagens"]
     if not isinstance(imgs, list) or not imgs:
         return "'imagens' deve ser uma lista com pelo menos um arquivo"
-    if post["tipo"] == "feed" and len(imgs) != 1:
-        return "tipo 'feed' precisa de exatamente 1 imagem"
+    if post["tipo"] in ("feed", "story") and len(imgs) != 1:
+        return f"tipo '{post['tipo']}' precisa de exatamente 1 imagem"
     if post["tipo"] == "carrossel" and not (2 <= len(imgs) <= 10):
         return "tipo 'carrossel' precisa de 2 a 10 imagens"
     if post.get("conta") and post["conta"] not in CONTAS:

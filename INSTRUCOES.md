@@ -63,3 +63,8 @@ Opcionais: `rosto=0.5`, `tamanho=64`, `alinhar=centro`. Saída 1068x1335. Grade 
 Workflow "Baixar foto" (`.github/workflows/baixar-foto.yml` + `baixar_foto.py`). Disparo por REST:
 `gh api -X POST repos/revistamodernaitupeva/publicador-revista-moderna/actions/workflows/baixar-foto.yml/dispatches -f ref=main -f inputs[url]=URL_DA_IMAGEM -f inputs[nome]=nome-do-arquivo`
 A imagem vai para `fotos/nome.jpg|png|webp` (aguarde ~1 min e dê `git pull`). Só aceita https dos domínios em `config.json > dominios_foto`, só imagens e até 15 MB.
+
+## Stories automáticos
+- `config.json > stories_auto` define as contas e os horários (Alto Uruguai: 09:00, 12:00, 15:00, 19:00 e 22:00).
+- A cada rodada, depois de publicar, o workflow roda `stories_auto.py`: até 60 min antes de cada horário, ele pega a matéria de feed mais recente já publicada pela conta (que ainda não virou story nas últimas 24 h), monta a arte vertical 1080x1920 (`arte/montar_story_altouruguai.py`) e coloca na fila/ com `"tipo": "story"`. O `publicar.py` publica no horário (API: media_type=STORIES; sem legenda nem figurinhas).
+- Para pausar só os stories, apague a conta de `stories_auto` (ou deixe a lista de horários vazia).

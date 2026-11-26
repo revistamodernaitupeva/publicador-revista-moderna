@@ -32,6 +32,14 @@ jobs:
           SIMULACAO: ${{ inputs.simulacao || 'false' }}
         run: python3 publicar.py
 
+      - name: Preparar stories automaticos
+        if: always()
+        env:
+          SIMULACAO: ${{ inputs.simulacao || 'false' }}
+        run: |
+          python3 -c "import PIL" 2>/dev/null || python3 -m pip install --quiet --user --break-system-packages pillow || python3 -m pip install --quiet --user pillow
+          python3 stories_auto.py
+
       - name: Salvar alteracoes no repositorio
         if: always()
         run: |

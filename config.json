@@ -23,5 +23,14 @@
     "jornalbomdia.com.br",
     "radioaratiba.com.br",
     "comunidadeviadutos.com.br"
-  ]
+  ],
+  "stories_auto": {
+    "altouruguai": [
+      "09:00",
+      "12:00",
+      "15:00",
+      "19:00",
+      "22:00"
+    ]
+  }
 }
