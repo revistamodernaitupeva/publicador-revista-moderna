@@ -11,7 +11,14 @@
   "horario": "2026-11-26T15:00:00-03:00",
   "origem": "2026-11-26-1300-altouruguai-consulta-popular-codemau-pagamentos.json",
   "titulo": "Estado paga R$ 1,9 milhão da Consulta Popular a municípios do Médio Alto Uruguai, aponta balanço do Codemau",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-26T14:00:32.834248-03:00",
-  "criado_por": "stories_auto"
+  "criado_por": "stories_auto",
+  "resultado": {
+    "instagram": {
+      "id": "17916815214664846",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4039076160403342869"
+    }
+  },
+  "movido_em": "2026-11-26T17:50:31.569336+00:00"
 }
