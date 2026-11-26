@@ -1,0 +1,17 @@
+{
+  "tipo": "story",
+  "conta": "altouruguai",
+  "plataformas": [
+    "instagram"
+  ],
+  "imagens": [
+    "2026-11-26-0021-altouruguai-story-teste.jpg"
+  ],
+  "legenda": "",
+  "horario": "2026-11-26T00:21:00-03:00",
+  "origem": "2026-11-25-2330-altouruguai-estacao-futevolei-veteranos.json",
+  "titulo": "Estação conhece os campeões da categoria Veteranos do 6º Campeonato Municipal de Futevôlei",
+  "status": "aprovado",
+  "aprovado_em": "2026-11-26T00:16:17.139385-03:00",
+  "criado_por": "teste"
+}
