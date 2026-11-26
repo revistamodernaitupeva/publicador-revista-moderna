@@ -7,11 +7,27 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-26T19:30:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Jundiaí a Campinas em 33 minutos: obras do Trem Intermetropolitano avançam",
     "texto": "As obras do Trem Intermetropolitano (TIM) avançam com 20 frentes de trabalho em Jundiaí, Louveira, Vinhedo, Valinhos e Campinas. Com operação prevista para 2029, o serviço terá 44 quilômetros de extensão e vai ligar Jundiaí a Campinas em aproximadamente 33 minutos.\n\nO balanço do primeiro ano de concessão da TIC Trens também destaca a modernização da Linha 7-Rubi, que transportou 104,3 milhões de passageiros no período.\n\nOutro projeto em andamento é o Trem Intercidades, previsto para 2031, que vai conectar São Paulo a Campinas em 64 minutos.",
     "imagem": "2026-11-26-1930-reel-trem-jundiai-campinas-obras-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18172993474481280",
+      "link": "https://www.instagram.com/reel/DgOKfvttnx2/"
+    },
+    "facebook": {
+      "id": "1462228338670061",
+      "link": "https://www.facebook.com/reel/1462228338670061"
+    },
+    "site": {
+      "id": 11713,
+      "link": "https://arevistamoderna.com.br/jundiai-a-campinas-em-33-minutos-obras-do-trem-intermetropolitano-avancam/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-26T22:21:10.395081+00:00"
 }
