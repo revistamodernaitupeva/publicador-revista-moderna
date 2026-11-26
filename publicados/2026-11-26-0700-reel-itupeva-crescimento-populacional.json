@@ -7,11 +7,27 @@
   "foto_credito": "FernandoSantos / Wikimedia Commons, CC BY-SA 3.0",
   "licenca_verificada": true,
   "horario": "2026-11-26T07:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Itupeva é a 3ª cidade que mais cresceu em população no estado de São Paulo",
     "texto": "Itupeva passou de 70.616 moradores no Censo Demográfico de 2022 para 75.776 habitantes na estimativa populacional do IBGE para 2026, com data de referência em 1º de julho. O avanço de 7,3% coloca o município em 3º lugar entre os 645 municípios paulistas no ranking de crescimento populacional no período, segundo levantamento com base nos dados do IBGE.\n\nÀ frente de Itupeva aparecem apenas Bady Bassitt, com crescimento de 9,1%, e Jarinu, cidade vizinha na Região Metropolitana de Jundiaí, com 7,7%. Na sequência está Santana de Parnaíba, com 7,2%.\n\nO crescimento confirma Itupeva entre os municípios que mais atraem novos moradores no estado e traz também novos desafios, como o aumento da demanda por serviços públicos e infraestrutura.",
     "imagem": "2026-11-26-0700-reel-itupeva-crescimento-populacional-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18122244643788166",
+      "link": "https://www.instagram.com/reel/DgM0sxZzbAy/"
+    },
+    "facebook": {
+      "id": "1657880096020384",
+      "link": "https://www.facebook.com/reel/1657880096020384"
+    },
+    "site": {
+      "id": 11677,
+      "link": "https://arevistamoderna.com.br/itupeva-e-a-3a-cidade-que-mais-cresceu-em-populacao-no-estado-de-sao-paulo/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-26T09:51:24.500213+00:00"
 }
