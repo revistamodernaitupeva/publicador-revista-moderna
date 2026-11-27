@@ -11,7 +11,14 @@
   "horario": "2026-11-27T12:00:00-03:00",
   "origem": "2026-11-27-1000-altouruguai-caminhada-turistica-aratiba-sabado.json",
   "titulo": "1ª Caminhada Turística de Aratiba percorre 14 quilômetros pelo interior neste sábado, saindo de Dourado",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-27T11:00:34.167013-03:00",
-  "criado_por": "stories_auto"
+  "criado_por": "stories_auto",
+  "resultado": {
+    "instagram": {
+      "id": "17914306398306757",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4039710338991357123"
+    }
+  },
+  "movido_em": "2026-11-27T14:50:31.935045+00:00"
 }
