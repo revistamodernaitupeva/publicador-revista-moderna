@@ -13,7 +13,14 @@
   "foto_credito": "Arquivo pessoal",
   "licenca_verificada": false,
   "criado_em": "2026-11-26T18:44:32-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-27T14:30:00-03:00",
-  "aprovado_em": "2026-11-26T18:46:23-03:00"
+  "aprovado_em": "2026-11-26T18:46:23-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18425122627152440",
+      "link": "https://www.instagram.com/p/DgQM9SvkfmP/"
+    }
+  },
+  "movido_em": "2026-11-27T17:20:33.061562+00:00"
 }
