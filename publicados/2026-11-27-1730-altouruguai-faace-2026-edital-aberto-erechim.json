@@ -13,7 +13,14 @@
   "foto_credito": "Divulgação/Prefeitura de Erechim",
   "licenca_verificada": false,
   "criado_em": "2026-11-26T18:44:32-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-27T17:30:00-03:00",
-  "aprovado_em": "2026-11-26T18:46:23-03:00"
+  "aprovado_em": "2026-11-26T18:46:23-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18224931112353131",
+      "link": "https://www.instagram.com/p/DgQhjsqlMA7/"
+    }
+  },
+  "movido_em": "2026-11-27T20:20:34.651359+00:00"
 }
