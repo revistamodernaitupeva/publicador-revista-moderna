@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-27T08:05:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Várzea Paulista reduz em 92,2% os casos de dengue em 2026, mas baixa vacinação preocupa a saúde",
     "texto": "Várzea Paulista passou de 1.323 casos confirmados de dengue em 2025 para 103 no mesmo período de 2026, uma redução de 92,2%. Até 25 de novembro, nenhuma morte pela doença foi registrada no município neste ano.\n\nApesar dos números positivos, a chegada dos meses mais quentes e chuvosos preocupa as equipes de saúde. Na quinta-feira (26), agentes do Controle de Zoonoses realizaram uma mobilização na Vila Real, região considerada prioritária no combate ao mosquito.\n\nA baixa adesão à vacinação também preocupa. Dos 7.619 moradores com idade entre 10 e 14 anos, foram registradas neste ano apenas 1.415 aplicações da primeira dose e 955 da segunda.\n\nA vacina está disponível em todas as UBSs, de segunda a sexta-feira, das 7h30 às 15h30. Na Vila Real e no Jardim Promeca, o atendimento vai até as 18h30. São necessárias duas doses, com intervalo de três meses.\n\nMesmo com a redução dos casos, a orientação é que os moradores reservem dez minutos por semana para eliminar possíveis criadouros do mosquito. Denúncias podem ser feitas à Ouvidoria Municipal pelo telefone (11) 4595-0037 ou pelo WhatsApp (11) 94365-0037.\n\nFonte: Tribuna de Jundiaí | Texto de Revista Moderna",
     "imagem": "2026-11-27-0805-dengue-varzea-paulista-queda-92-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17992345797114706",
+      "link": "https://www.instagram.com/p/DgPg5dPI0tf/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1796498469147250"
+    },
+    "site": {
+      "id": 11726,
+      "link": "https://arevistamoderna.com.br/varzea-paulista-reduz-em-922-os-casos-de-dengue-em-2026-mas-baixa-vacinacao-preocupa-a-saude/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-27T10:55:42.568844+00:00"
 }
