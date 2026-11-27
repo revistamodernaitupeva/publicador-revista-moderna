@@ -7,11 +7,27 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-27T10:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Itupeva entrega revitalização do Terminal Rodoviário",
     "texto": "A Prefeitura de Itupeva entregou nesta quarta-feira (25) a revitalização do Terminal Rodoviário, localizado na Avenida Brasil, no Centro. Um dos espaços mais movimentados da cidade ganhou visual renovado, com o objetivo de oferecer mais conforto, qualidade e acolhimento a moradores e passageiros que usam diariamente o transporte coletivo.\n\nEntre as melhorias estão novos banheiros, mais modernos, acessíveis, seguros e gratuitos, além de nova lanchonete, novos bancos e sistema de monitoramento.\n\nA entrega contou com a presença do prefeito Rogério Cavalin, do vice-prefeito Isaac Messias, de secretários municipais e autoridades.",
     "imagem": "2026-11-27-1000-reel-terminal-rodoviario-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "17869790748678784",
+      "link": "https://www.instagram.com/reel/DgPuFOSulbE/"
+    },
+    "facebook": {
+      "id": "29490210640662662",
+      "link": "https://www.facebook.com/reel/29490210640662662"
+    },
+    "site": {
+      "id": 11739,
+      "link": "https://arevistamoderna.com.br/itupeva-entrega-revitalizacao-do-terminal-rodoviario/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-27T12:51:34.422787+00:00"
 }
