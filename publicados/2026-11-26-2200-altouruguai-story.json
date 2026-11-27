@@ -11,7 +11,14 @@
   "horario": "2026-11-26T22:00:00-03:00",
   "origem": "2026-11-26-2030-altouruguai-felipe-costa-rally-del-atlantico.json",
   "titulo": "Navegador de Erechim disputa o Rally del Atlántico, no Uruguai, pelos campeonatos Sul e Pan-Americano",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-26T21:00:37.326768-03:00",
-  "criado_por": "stories_auto"
+  "criado_por": "stories_auto",
+  "resultado": {
+    "instagram": {
+      "id": "18044112176847541",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4039287574598674898"
+    }
+  },
+  "movido_em": "2026-11-27T00:50:35.469634+00:00"
 }
