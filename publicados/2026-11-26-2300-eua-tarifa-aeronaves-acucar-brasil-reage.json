@@ -8,11 +8,26 @@
   "foto_credito": "Matti Blume / Wikimedia Commons (CC BY-SA 4.0)",
   "licenca_verificada": true,
   "horario": "2026-11-26T23:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "EUA propõem tarifa de 10% sobre aeronaves brasileiras e nova cobrança sobre o açúcar; Brasil reage",
     "texto": "O Escritório do Representante Comercial dos Estados Unidos (USTR) propôs uma sobretaxa de 10% sobre aeronaves acabadas fabricadas no Brasil, o que encerraria a isenção atual prevista na Seção 301 da lei comercial americana. A proposta também altera a cobrança sobre determinados tipos de açúcar fora da cota.\n\nEm nota divulgada na quarta-feira (25), o governo brasileiro disse que expressa indignação com a recomendação e que negocia de boa-fé há mais de um ano no âmbito da Seção 301. Segundo o governo, a medida tenta pressionar mudanças em regras nacionais, como as do Pix e do comércio digital.\n\nO Planalto afirmou que seguirá buscando uma solução negociada, com possibilidade de recorrer à Organização Mundial do Comércio (OMC) e de adotar medidas de reciprocidade. Nesta quinta-feira (26), o vice-presidente Geraldo Alckmin classificou a proposta como descabida.\n\nEm julho de 2026, os EUA aplicaram tarifas de 25% sobre determinados produtos brasileiros. Na terça-feira (24), o Brasil pediu à OMC a abertura de um painel de controvérsias contra essas tarifas, pedido que foi bloqueado pelos Estados Unidos.\n\nA imagem que ilustra esta matéria é de um jato da Embraer em voo, em foto de arquivo.\n\nFonte: MDIC / USTR | Imagem: Matti Blume / Wikimedia Commons (CC BY-SA 4.0), ilustrativa | Texto de Revista Moderna",
     "imagem": "2026-11-26-2300-eua-tarifa-aeronaves-acucar-brasil-reage-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18213514885371976",
+      "link": "https://www.instagram.com/p/DgOihwfjiz6/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1796043872526043"
+    },
+    "site": {
+      "id": 11719,
+      "link": "https://arevistamoderna.com.br/eua-propoem-tarifa-de-10-sobre-aeronaves-brasileiras-e-nova-cobranca-sobre-o-acucar-brasil-reage/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-27T01:50:44.165017+00:00"
 }
