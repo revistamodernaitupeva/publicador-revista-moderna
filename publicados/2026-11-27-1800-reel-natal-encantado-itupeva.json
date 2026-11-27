@@ -7,7 +7,7 @@
   "foto_credito": "Allen McGregor / Wikimedia Commons, CC BY 2.0 (ilustrativa)",
   "licenca_verificada": true,
   "horario": "2026-11-27T18:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Natal Encantado 2026 de Itupeva abre em 4 de dezembro com chegada do Papai Noel",
     "texto": "O Papai Noel já tem data e hora para chegar a Itupeva. A Prefeitura anunciou a abertura do Natal Encantado 2026 para sexta-feira, 4 de dezembro, às 19h, no Parque da Cidade.\n\nA programação da noite inclui a chegada do Papai Noel, máquina de neve, túnel iluminado, brinquedos infláveis, Parque Encantado e apresentação do Coral do CCI.\n\nSegundo a Prefeitura, outras atrações do Natal Encantado serão divulgadas nos próximos dias.\n\nImagem ilustrativa.",
@@ -23,7 +23,12 @@
       "id": 11768,
       "link": "https://arevistamoderna.com.br/natal-encantado-2026-de-itupeva-abre-em-4-de-dezembro-com-chegada-do-papai-noel/",
       "status": "publish"
+    },
+    "instagram": {
+      "id": "18030180338946326",
+      "link": "https://www.instagram.com/reel/DgQljdWBCCL/"
     }
   },
-  "tentativas": 1
+  "tentativas": 1,
+  "movido_em": "2026-11-27T20:55:48.962994+00:00"
 }
