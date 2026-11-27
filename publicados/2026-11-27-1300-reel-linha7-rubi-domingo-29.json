@@ -7,11 +7,27 @@
   "foto_credito": "Leonardo Palermo Gentile (CC BY-SA 4.0) e BêS (CC BY-SA 3.0) / Wikimedia Commons",
   "licenca_verificada": true,
   "horario": "2026-11-27T13:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Linha 7-Rubi não terá viagens diretas entre Jundiaí e Barra Funda neste domingo (29)",
     "texto": "Os passageiros que utilizam a Linha 7-Rubi para viajar entre Jundiaí e Palmeiras-Barra Funda deverão fazer transferência na estação Francisco Morato neste domingo (29). A alteração vale nos dois sentidos, durante todo o horário de operação, das 4h à meia-noite.\n\nOs intervalos previstos são de 30 minutos entre Jundiaí e Francisco Morato e de 15 minutos no trecho entre Francisco Morato e Barra Funda.\n\nTambém haverá circulação em via única entre as estações Botujuru e Campo Limpo Paulista e na estação Franco da Rocha, por causa de serviços de manutenção e modernização da ferrovia.",
     "imagem": "2026-11-27-1300-reel-linha7-rubi-domingo-29-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18080693771726724",
+      "link": "https://www.instagram.com/reel/DgQCrQKh344/"
+    },
+    "facebook": {
+      "id": "1612027867341842",
+      "link": "https://www.facebook.com/reel/1612027867341842"
+    },
+    "site": {
+      "id": 11752,
+      "link": "https://arevistamoderna.com.br/linha-7-rubi-nao-tera-viagens-diretas-entre-jundiai-e-barra-funda-neste-domingo-29/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-27T15:51:22.102799+00:00"
 }
