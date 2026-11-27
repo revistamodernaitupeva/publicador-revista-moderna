@@ -157,8 +157,17 @@ def publicar_instagram(post):
                 image_url=url_imagem(imgs[0]), media_type="STORIES")["id"]
         esperar_pronto(c, token=T)
     elif len(imgs) == 1:
-        c = api("POST", f"{IG}/media", T,
-                image_url=url_imagem(imgs[0]), caption=legenda)["id"]
+        colab = post.get("colaboradores")
+        try:
+            c = api("POST", f"{IG}/media", T, image_url=url_imagem(imgs[0]),
+                    caption=legenda,
+                    collaborators=json.dumps(colab) if colab else None)["id"]
+        except MetaError:
+            if not colab:
+                raise
+            # convite de colaboracao falhou: publica sem colaborador
+            c = api("POST", f"{IG}/media", T,
+                    image_url=url_imagem(imgs[0]), caption=legenda)["id"]
         esperar_pronto(c, token=T)
     else:
         filhos = []
@@ -168,8 +177,16 @@ def publicar_instagram(post):
             filhos.append(f)
         for f in filhos:
             esperar_pronto(f, token=T)
-        c = api("POST", f"{IG}/media", T, media_type="CAROUSEL",
-                children=",".join(filhos), caption=legenda)["id"]
+        colab = post.get("colaboradores")
+        try:
+            c = api("POST", f"{IG}/media", T, media_type="CAROUSEL",
+                    children=",".join(filhos), caption=legenda,
+                    collaborators=json.dumps(colab) if colab else None)["id"]
+        except MetaError:
+            if not colab:
+                raise
+            c = api("POST", f"{IG}/media", T, media_type="CAROUSEL",
+                    children=",".join(filhos), caption=legenda)["id"]
         esperar_pronto(c, token=T)
     media_id = api("POST", f"{IG}/media_publish", T, creation_id=c)["id"]
     try:
