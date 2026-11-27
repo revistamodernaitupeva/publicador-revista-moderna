@@ -11,7 +11,14 @@
   "horario": "2026-11-27T09:00:00-03:00",
   "origem": "2026-11-27-0700-altouruguai-recrearte-sesc-severiano-de-almeida.json",
   "titulo": "RecreArte do Sesc encerra nesta sexta a programação gratuita de cultura e lazer em Severiano de Almeida",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-27T08:00:39.244633-03:00",
-  "criado_por": "stories_auto"
+  "criado_por": "stories_auto",
+  "resultado": {
+    "instagram": {
+      "id": "17912654913604869",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4039619806004947784"
+    }
+  },
+  "movido_em": "2026-11-27T11:50:35.847932+00:00"
 }
