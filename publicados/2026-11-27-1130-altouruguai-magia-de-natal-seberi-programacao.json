@@ -13,7 +13,14 @@
   "foto_credito": "Divulgação/Prefeitura de Seberi",
   "licenca_verificada": false,
   "criado_em": "2026-11-26T18:44:32-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-27T11:30:00-03:00",
-  "aprovado_em": "2026-11-26T18:46:23-03:00"
+  "aprovado_em": "2026-11-26T18:46:23-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "17894587206456638",
+      "link": "https://www.instagram.com/p/DgP4W91D1H2/"
+    }
+  },
+  "movido_em": "2026-11-27T14:20:31.523433+00:00"
 }
