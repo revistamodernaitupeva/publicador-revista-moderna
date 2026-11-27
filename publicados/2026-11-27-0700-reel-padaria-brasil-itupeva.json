@@ -7,11 +7,27 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-27T07:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Padaria Brasil é interditada pela Vigilância Sanitária em Itupeva",
     "texto": "A Vigilância Sanitária interditou a Padaria Brasil, estabelecimento tradicional de Itupeva. Até a publicação desta matéria, não haviam sido divulgados os motivos da interdição nem o prazo para uma possível reabertura.\n\nEm comunicado publicado nas redes sociais, a padaria informou que a interrupção das atividades foi necessária para realizar adequações estruturais exigidas pela Vigilância Sanitária. Segundo o estabelecimento, há problemas relacionados a reformas no prédio e particularidades do imóvel antigo que precisam ser regularizadas, além de taxas e licenças pendentes.\n\nA empresa afirma que está trabalhando para resolver as questões o quanto antes e retomar o atendimento dentro das normas exigidas.",
     "imagem": "2026-11-27-0700-reel-padaria-brasil-itupeva-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18147458449715969",
+      "link": "https://www.instagram.com/reel/DgPZfbLOgKw/"
+    },
+    "facebook": {
+      "id": "1308007184814282",
+      "link": "https://www.facebook.com/reel/1308007184814282"
+    },
+    "site": {
+      "id": 11721,
+      "link": "https://arevistamoderna.com.br/padaria-brasil-e-interditada-pela-vigilancia-sanitaria-em-itupeva/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-27T09:51:24.027132+00:00"
 }
