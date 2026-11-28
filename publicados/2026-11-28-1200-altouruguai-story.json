@@ -11,7 +11,14 @@
   "horario": "2026-11-28T12:00:00-03:00",
   "origem": "2026-11-27-2200-altouruguai-show-patinacao-aratiba-5-dezembro.json",
   "titulo": "Aratiba recebe Show Artístico de Patinação com tema de Natal e entrada gratuita no dia 5 de dezembro",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-28T11:00:42.789695-03:00",
-  "criado_por": "stories_auto"
+  "criado_por": "stories_auto",
+  "resultado": {
+    "instagram": {
+      "id": "17973294203964853",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4040435181486640429"
+    }
+  },
+  "movido_em": "2026-11-28T14:50:38.470537+00:00"
 }
