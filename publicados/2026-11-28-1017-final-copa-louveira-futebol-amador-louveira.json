@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-28T10:17:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Unidos Pela Paz e Sucesso CP decidem neste domingo o título da 21ª Copa Louveira de Futebol Amador",
     "texto": "A grande final da 21ª Copa Louveira de Futebol Amador 2026 acontece neste domingo, 29 de novembro. Unidos Pela Paz e Sucesso CP entram em campo na disputa pelo título, depois de vencerem as semifinais.\n\nO Unidos Pela Paz, campeão da 1ª Divisão, enfrenta o Sucesso CP, campeão da 3ª Divisão, em uma decisão que promete muita emoção.\n\nO jogo será às 9h, no CEIL, no Bairro. A divulgação é da Prefeitura de Louveira.",
     "imagem": "2026-11-28-1017-final-copa-louveira-futebol-amador-louveira-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18129620074928062",
+      "link": "https://www.instagram.com/p/DgSVJJzD6VD/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1797873822343048"
+    },
+    "site": {
+      "id": 11770,
+      "link": "https://arevistamoderna.com.br/unidos-pela-paz-e-sucesso-cp-decidem-neste-domingo-o-titulo-da-21a-copa-louveira-de-futebol-amador/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-28T13:10:42.795745+00:00"
 }
