@@ -13,6 +13,7 @@
   "foto_credito": "Divulgação/Unimed Erechim",
   "licenca_verificada": false,
   "criado_em": "2026-11-28T10:04:41-03:00",
-  "horario_sugerido": "2026-11-28T20:30:00-03:00",
-  "status": "rascunho"
+  "status": "aprovado",
+  "horario": "2026-11-28T20:30:00-03:00",
+  "aprovado_em": "2026-11-28T10:07:43-03:00"
 }
