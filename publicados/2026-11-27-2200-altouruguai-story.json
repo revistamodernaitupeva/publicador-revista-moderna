@@ -11,7 +11,14 @@
   "horario": "2026-11-27T22:00:00-03:00",
   "origem": "2026-11-27-2030-altouruguai-policia-civil-apreende-armas-planalto.json",
   "titulo": "Polícia Civil apreende cinco armas de fogo e mais de 200 munições durante operação em Planalto",
-  "status": "aprovado",
+  "status": "publicado",
   "aprovado_em": "2026-11-27T21:00:35.792808-03:00",
-  "criado_por": "stories_auto"
+  "criado_por": "stories_auto",
+  "resultado": {
+    "instagram": {
+      "id": "18079599557770664",
+      "link": "https://www.instagram.com/stories/revistamoderna.altouruguai/4040012467963362187"
+    }
+  },
+  "movido_em": "2026-11-28T00:50:48.871150+00:00"
 }
