@@ -13,7 +13,14 @@
   "foto_credito": "Divulgação/Prefeitura de Três Arroios",
   "licenca_verificada": false,
   "criado_em": "2026-11-28T10:04:41-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-28T13:00:00-03:00",
-  "aprovado_em": "2026-11-28T10:07:43-03:00"
+  "aprovado_em": "2026-11-28T10:07:43-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18117286775175610",
+      "link": "https://www.instagram.com/p/DgSndFXjSVU/"
+    }
+  },
+  "movido_em": "2026-11-28T15:50:30.635335+00:00"
 }

@@ -8,11 +8,26 @@
   "foto_credito": "",
   "licenca_verificada": false,
   "horario": "2026-11-28T13:00:00-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "site": {
     "titulo": "Basquete feminino Sub-15 de Itupeva é campeão da Liga Metropolitana após vencer Cordeirópolis por 53 a 29",
     "texto": "O basquete feminino Sub-15 de Itupeva conquistou o título da Liga Metropolitana de Basquete (LMB). Na quinta-feira (26), no Ginásio Dorival Raymundo, as atletas venceram Cordeirópolis por 53 a 29 e fecharam uma campanha invicta.\n\nO destaque da final foi Lohainny, camisa 10 de Itupeva, que marcou 15 pontos. Na semifinal, a equipe já havia vencido Amparo por 64 a 14. Somando as duas partidas decisivas, o time marcou 117 pontos e sofreu apenas 43.\n\nAs atletas são comandadas pelo professor Mauricio Gobi, e a temporada ainda não acabou. O Sub-16 disputa as Finais Estaduais da Copa de Basquetebol do Estado de São Paulo, em Tanabi, de 27 de novembro a 6 de dezembro, e a final do campeonato da ARB contra Casa Branca. O Sub-13 disputa o terceiro lugar da ARB contra Jundiaí, em 6 de dezembro.\n\nA conquista foi comemorada pela Prefeitura de Itupeva, que parabenizou as atletas e a comissão técnica por representarem a cidade.",
     "imagem": "2026-11-28-1300-basquete-sub15-itupeva-campeao-lmb-site.jpg",
     "status": "publish"
-  }
+  },
+  "resultado": {
+    "instagram": {
+      "id": "18095272535499545",
+      "link": "https://www.instagram.com/p/DgSnd-sDVRg/"
+    },
+    "facebook": {
+      "id": "1048345461884189_1798034178993679"
+    },
+    "site": {
+      "id": 11772,
+      "link": "https://arevistamoderna.com.br/basquete-feminino-sub-15-de-itupeva-e-campeao-da-liga-metropolitana-apos-vencer-cordeiropolis-por-53-a-29/",
+      "status": "publish"
+    }
+  },
+  "movido_em": "2026-11-28T15:50:50.179186+00:00"
 }
