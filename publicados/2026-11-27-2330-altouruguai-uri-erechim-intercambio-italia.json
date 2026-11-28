@@ -13,7 +13,14 @@
   "foto_credito": "Divulgação/URI Erechim",
   "licenca_verificada": false,
   "criado_em": "2026-11-26T18:44:32-03:00",
-  "status": "aprovado",
+  "status": "publicado",
   "horario": "2026-11-27T23:30:00-03:00",
-  "aprovado_em": "2026-11-26T18:46:23-03:00"
+  "aprovado_em": "2026-11-26T18:46:23-03:00",
+  "resultado": {
+    "instagram": {
+      "id": "18158613346544329",
+      "link": "https://www.instagram.com/p/DgRKwTRDa_c/"
+    }
+  },
+  "movido_em": "2026-11-28T02:20:34.798459+00:00"
 }
